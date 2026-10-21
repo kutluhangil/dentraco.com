@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="28" viewBox="0 0 1000 28" role="img" aria-label="">
+<style>
+.l{stroke:#D3DFDC;stroke-width:1}
+.t{transform-box:fill-box;transform-origin:bottom;animation:b 2.4s ease-in-out infinite}
+@keyframes b{0%,100%{transform:scaleY(.55)}50%{transform:scaleY(1)}}
+@media (prefers-color-scheme:dark){.l{stroke:#2a4650}}
+@media (prefers-reduced-motion:reduce){.t{animation:none}}
+</style>
+<line class="l" x1="0" y1="14" x2="455" y2="14"/><line class="l" x1="545" y1="14" x2="1000" y2="14"/>
+<g>
+<rect class="t" x="462" y="2" width="10" height="24" rx="5" fill="#2D4BFF" style="animation-delay:0s"/>
+<rect class="t" x="477" y="2" width="10" height="24" rx="5" fill="#2D4BFF" style="animation-delay:.15s"/>
+<rect class="t" x="492" y="2" width="10" height="24" rx="5" fill="#2D4BFF" style="animation-delay:.3s"/>
+<rect class="t" x="507" y="2" width="10" height="24" rx="5" fill="#8EDCC6" style="animation-delay:.45s"/>
+<rect class="t" x="522" y="2" width="10" height="24" rx="5" fill="#E1CDA6" style="animation-delay:.6s"/>
+</g>
+</svg>

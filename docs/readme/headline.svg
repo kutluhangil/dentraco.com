@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="80" viewBox="0 0 1000 80" role="img" aria-label="Doğru diş hekimini dişinden, şikâyetinden, şehrinden ya da tedavisinden başlayarak bulun.">
+<style>
+text{font:700 40px Figtree, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif;letter-spacing:-1.2px;fill:#0F2A33}
+.word{opacity:0}.hl{fill:#2D4BFF}
+.w0{animation:w0 10.4s infinite}@keyframes w0{0%,0.00%{opacity:0;transform:translateY(26px)}3.00%,22.00%{opacity:1;transform:none}25.00%,100%{opacity:0;transform:translateY(-26px)}}.w1{animation:w1 10.4s infinite}@keyframes w1{0%,24.99%{opacity:0;transform:translateY(26px)}28.00%,47.00%{opacity:1;transform:none}50.00%,100%{opacity:0;transform:translateY(-26px)}}.w2{animation:w2 10.4s infinite}@keyframes w2{0%,49.99%{opacity:0;transform:translateY(26px)}53.00%,72.00%{opacity:1;transform:none}75.00%,100%{opacity:0;transform:translateY(-26px)}}.w3{animation:w3 10.4s infinite}@keyframes w3{0%,74.99%{opacity:0;transform:translateY(26px)}78.00%,97.00%{opacity:1;transform:none}100.00%,100%{opacity:0;transform:translateY(-26px)}}
+@media (prefers-color-scheme:dark){text{fill:#EEF3F2}.hl{fill:#8ea0ff}}
+@media (prefers-reduced-motion:reduce){.word{animation:none!important}.w0{opacity:1}}
+</style>
+<text x="368" y="52" text-anchor="end">Doğru diş hekimini</text>
+<g transform="translate(380 52)"><text class="word w0" x="0" y="0"><tspan class="hl">dişinden</tspan> başlayarak bulun.</text><text class="word w1" x="0" y="0"><tspan class="hl">şikâyetinden</tspan> başlayarak bulun.</text><text class="word w2" x="0" y="0"><tspan class="hl">şehrinden</tspan> başlayarak bulun.</text><text class="word w3" x="0" y="0"><tspan class="hl">tedavisinden</tspan> başlayarak bulun.</text></g>
+</svg>

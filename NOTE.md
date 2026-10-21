@@ -1,5 +1,7 @@
 # Dentraco — Proje notları
 
+**Canlı site:** https://dentraco.vercel.app
+
 Bu dosya, projeye sonradan katılan ya da sunumu hazırlayan arkadaşlar için yazıldı. Projenin ne olduğunu, nasıl çalıştırılacağını, neyin nerede durduğunu ve bilinmesi gerekenleri tek yerde toplar.
 
 ---
@@ -104,7 +106,7 @@ Her sayfadan **Ctrl+K** (Mac'te **⌘K**) ile arama penceresi açılır.
   - Hastane kartlarının maske açılımıyla gelmesi, üzerine gelince görselin yakınlaşması
   - "Bir yorum nasıl yayımlanır?" bölümünde kaydırdıkça dolan hat ve sırayla yanan adımlar
 - İşletim sisteminde "hareketi azalt" açıksa otomatik animasyonların tamamı kapanır.
-- **Responsive:** telefon (390 px), tablet (768 px) ve masaüstünde (1440 px) yatay kaydırma olmadan çalışır. Mobilde filtreler alttan açılan bir panelde, diş haritası çeyrek sekmeleriyle kullanılır.
+- **Responsive:** 320 px'lik küçük telefonlardan 1920 px'lik ekranlara kadar yatay kaydırma olmadan çalışır. Mobilde filtreler alttan açılan bir panelde, diş haritası çeyrek sekmeleriyle kullanılır.
 
 ## 7. Teknik yapı
 
@@ -163,6 +165,7 @@ Prototip sunucu ya da veritabanı kullanmaz. İçerik kodla birlikte gelir; kay�
 
 - Lint ve tip kontrolü hatasız; 19 birim testi geçiyor (moderasyon, puan hesabı, Türkçe arama, seed verinin tutarlılığı).
 - Production build 78 sayfayı hatasız üretiyor.
+- Responsive kontrolü: 320, 360, 390, 414, 768, 1024, 1280, 1440 ve 1920 px genişliklerde tüm sayfalarda yatay taşma yok.
 - Tarayıcıda uçtan uca akış:
   1. Kayıt
   2. Kişisel veri içeren yorumun engellenmesi
@@ -190,5 +193,6 @@ Fiyatlar Ekim 2026 itibarıyla yaklaşıktır. Bir kısmı üçüncü taraf kayn
 ## 11. Sıradaki adımlar
 
 1. Gemini ile görsellerin üretilip `public/images/` altına eklenmesi
-2. Vercel'e deploy (Hobby planı, ücretsiz)
-3. İsteğe bağlı: Supabase ile gerçek üyelik ve veritabanına geçiş
+2. İsteğe bağlı: Supabase ile gerçek üyelik ve veritabanına geçiş
+
+Site Vercel'de (Hobby planı, ücretsiz) yayında. GitHub reposu Vercel'e bağlı olduğu için `main` dalına yapılan her push otomatik olarak yeniden yayımlanır.
