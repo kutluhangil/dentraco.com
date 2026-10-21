@@ -78,22 +78,21 @@ export function RotatingWord({ words, interval = 2600 }: { words: string[]; inte
       <span className="col-start-1 row-start-1 overflow-hidden pb-[0.08em]">
         <motion.span
           key={words[i]}
-          className="inline-block"
+          className="relative inline-block"
           initial={reduce ? false : { y: "70%", opacity: 0, filter: "blur(8px)" }}
           animate={{ y: 0, opacity: 1, filter: "blur(0px)" }}
           transition={{ duration: 0.55, ease }}
         >
           {words[i]}
+          <motion.span
+            aria-hidden="true"
+            className="absolute bottom-[0.04em] left-0 h-[0.09em] w-full origin-left rounded-full bg-curing"
+            initial={reduce ? false : { scaleX: 0 }}
+            animate={{ scaleX: 1 }}
+            transition={{ duration: 0.7, delay: 0.15, ease }}
+          />
         </motion.span>
       </span>
-      <motion.span
-        key={`bar-${i}`}
-        aria-hidden="true"
-        className="absolute -bottom-[0.02em] left-0 h-[0.09em] w-full origin-left rounded-full bg-curing"
-        initial={reduce ? false : { scaleX: 0 }}
-        animate={{ scaleX: 1 }}
-        transition={{ duration: 0.7, delay: 0.15, ease }}
-      />
       <span className="sr-only">{words.join(", ")}</span>
     </span>
   );

@@ -9,6 +9,7 @@ import { Odontogram } from "@/components/odontogram/odontogram";
 import { useSearchIndex } from "@/components/layout/search-dialog";
 import { normalizeTr } from "@/lib/search";
 import { HeroBackdrop, RotatingWord, SplitWords } from "./motion-bits";
+import { ToothStory } from "./tooth-story";
 
 const quick = [
   { label: "İmplant", href: "/doktorlar?uzmanlik=cerrahi" },
@@ -71,6 +72,14 @@ export function Hero() {
               </motion.li>
             ))}
           </ul>
+          <motion.div
+            className="hidden lg:block"
+            initial={reduce ? false : { opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.15, duration: 0.7, ease: [0.25, 1, 0.5, 1] }}
+          >
+            <ToothStory />
+          </motion.div>
         </div>
         <motion.div
           className="min-w-0"
