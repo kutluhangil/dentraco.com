@@ -104,8 +104,8 @@ export function LoginForm() {
                 }}
                 className="flex w-full items-center justify-between gap-3 rounded-[var(--radius-control)] bg-enamel px-3 py-2 text-left text-sm hover:bg-white"
               >
-                <span className="font-medium">{c.label}</span>
-                <span className="truncate text-xs text-ink-soft">
+                <span className="shrink-0 font-medium">{c.label}</span>
+                <span className="min-w-0 truncate text-xs text-ink-soft">
                   {c.email} / {c.password}
                 </span>
               </button>

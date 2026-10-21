@@ -52,7 +52,7 @@ export function Header() {
           scrolled || open ? "bg-porcelain/92 shadow-[0_1px_0_var(--color-line)] backdrop-blur-md" : "bg-porcelain"
         }`}
       >
-        <div className="page flex h-16 items-center gap-6">
+        <div className="page flex h-16 items-center gap-3 sm:gap-6">
           <Link href="/" aria-label="Dentraco ana sayfa" className="shrink-0" onClick={() => setOpen(false)}>
             <Logo />
           </Link>
@@ -78,7 +78,7 @@ export function Header() {
             </ul>
           </nav>
 
-          <div className="ml-auto flex items-center gap-2">
+          <div className="ml-auto flex items-center gap-1.5 sm:gap-2">
             <button
               type="button"
               onClick={() => setSearchOpen(true)}
@@ -164,9 +164,10 @@ function AccountButton() {
     return (
       <Link
         href="/giris"
-        className="flex h-10 items-center rounded-full bg-ink px-4 text-sm font-medium text-white transition-colors hover:bg-curing"
+        className="flex h-10 items-center gap-1.5 rounded-full bg-ink px-3 text-sm font-medium text-white transition-colors hover:bg-curing min-[360px]:px-4"
       >
-        Giriş yap
+        <UserRound className="size-4 min-[360px]:hidden" aria-hidden="true" />
+        <span className="max-[359px]:sr-only">Giriş yap</span>
       </Link>
     );
   }

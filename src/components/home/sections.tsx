@@ -153,7 +153,7 @@ export function HospitalStrip() {
                   {h.district}, {h.city}
                 </p>
                 <h3 className="leading-snug font-semibold group-hover:underline group-hover:decoration-curing group-hover:underline-offset-4">{h.name}</h3>
-                <div className="mt-1.5 flex items-center justify-between">
+                <div className="mt-1.5 flex flex-wrap items-center justify-between gap-x-2 gap-y-1">
                   <RatingInline summary={summaries.get(h.id) ?? emptySummary} />
                   <span className="tabular text-xs text-ink-faint">{doctors.filter((d) => d.hospitalId === h.id).length} hekim</span>
                 </div>

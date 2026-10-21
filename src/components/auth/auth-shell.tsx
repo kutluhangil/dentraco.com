@@ -16,7 +16,7 @@ export function AuthShell({ title, lead, children }: { title: string; lead: stri
           </p>
         </div>
       </div>
-      <div>
+      <div className="min-w-0">
         <h1 className="display-tight text-5xl font-semibold">{title}</h1>
         <p className="mt-3 text-ink-soft">{lead}</p>
         <div className="mt-8">{children}</div>

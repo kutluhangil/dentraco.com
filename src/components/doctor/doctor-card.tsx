@@ -30,7 +30,7 @@ export function DoctorCard({ doctor, hospital, summary }: { doctor: Doctor; hosp
             </span>
           </p>
         )}
-        <div className="mt-2.5 flex items-center justify-between gap-2">
+        <div className="mt-2.5 flex flex-wrap items-center justify-between gap-x-2 gap-y-1">
           <RatingInline summary={summary} />
           <span className="tabular text-xs text-ink-faint">{experienceYears(doctor)} yıl deneyim</span>
         </div>
