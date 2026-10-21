@@ -1,12 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Bricolage_Grotesque, Source_Serif_4 } from "next/font/google";
+import { Figtree, Source_Serif_4 } from "next/font/google";
 import { Providers } from "@/components/providers";
 import "./globals.css";
 
-const bricolage = Bricolage_Grotesque({
-  variable: "--font-bricolage",
+const figtree = Figtree({
+  variable: "--font-figtree",
   subsets: ["latin", "latin-ext"],
-  axes: ["opsz", "wdth"],
   display: "swap",
 });
 
@@ -41,7 +40,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="tr" className={`${bricolage.variable} ${sourceSerif.variable} h-full antialiased`}>
+    <html lang="tr" className={`${figtree.variable} ${sourceSerif.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col">
         <Providers>{children}</Providers>
       </body>

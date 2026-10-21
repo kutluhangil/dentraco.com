@@ -8,6 +8,7 @@ import { Search } from "lucide-react";
 import { Odontogram } from "@/components/odontogram/odontogram";
 import { useSearchIndex } from "@/components/layout/search-dialog";
 import { normalizeTr } from "@/lib/search";
+import { HeroBackdrop, RotatingWord, SplitWords } from "./motion-bits";
 
 const quick = [
   { label: "İmplant", href: "/doktorlar?uzmanlik=cerrahi" },
@@ -20,41 +21,65 @@ const quick = [
 export function Hero() {
   const reduce = useReducedMotion();
   return (
-    <section className="page grid gap-10 pt-8 pb-16 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-14 lg:pt-14 lg:pb-24">
-      <div className="lg:pt-10">
-        <motion.h1
-          initial={reduce ? false : { opacity: 0, y: 14 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
-          className="display-tight text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.95] font-semibold text-balance"
+    <section className="relative isolate">
+      <HeroBackdrop />
+      <div className="page grid gap-10 pt-8 pb-16 lg:grid-cols-[minmax(0,11fr)_minmax(0,13fr)] lg:gap-14 lg:pt-14 lg:pb-24">
+        <div className="lg:pt-10">
+          <motion.p
+            initial={reduce ? false : { opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="inline-flex items-center gap-2 rounded-full border border-line bg-enamel/70 px-3 py-1.5 text-sm text-ink-soft backdrop-blur"
+          >
+            <span className="relative flex size-2">
+              <span className="absolute inline-flex size-full rounded-full bg-fluoride-deep opacity-60 motion-safe:animate-ping" />
+              <span className="relative inline-flex size-2 rounded-full bg-fluoride-deep" />
+            </span>
+            Yorumlar yönetici onayıyla yayımlanır
+          </motion.p>
+          <h1 className="display-tight mt-5 text-[clamp(2.5rem,4.6vw,3.75rem)] leading-[1.04]">
+            <SplitWords text="Doğru diş hekimini" delay={0.1} />
+            <RotatingWord words={["dişinden", "şikâyetinden", "şehrinden", "tedavisinden"]} />{" "}
+            <SplitWords text="başlayarak bulun." delay={0.35} />
+          </h1>
+          <motion.p
+            initial={reduce ? false : { opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6, duration: 0.6 }}
+            className="mt-6 max-w-md text-lg leading-relaxed text-ink-soft"
+          >
+            Şikâyetinizin olduğu dişe dokunun; o bölgedeki olası tedavileri ve ilgilenen uzmanları gösterelim. Ya da doğrudan hekim, klinik veya
+            tedavi arayın.
+          </motion.p>
+          <motion.div initial={reduce ? false : { opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.75, duration: 0.6 }}>
+            <HeroSearch />
+          </motion.div>
+          <ul className="mt-4 flex flex-wrap gap-2" aria-label="Sık aranan">
+            {quick.map((q, i) => (
+              <motion.li
+                key={q.label}
+                initial={reduce ? false : { opacity: 0, scale: 0.85 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.9 + i * 0.06, type: "spring", stiffness: 300, damping: 20 }}
+              >
+                <Link
+                  href={q.href}
+                  className="inline-flex rounded-full border border-line bg-enamel/60 px-3 py-1.5 text-sm text-ink-soft transition-[border-color,color,transform] hover:-translate-y-0.5 hover:border-ink hover:text-ink"
+                >
+                  {q.label}
+                </Link>
+              </motion.li>
+            ))}
+          </ul>
+        </div>
+        <motion.div
+          className="min-w-0"
+          initial={reduce ? false : { opacity: 0, scale: 0.96 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, ease: [0.25, 1, 0.5, 1] }}
         >
-          Doğru diş hekimini, dişinden başlayarak bulun.
-        </motion.h1>
-        <motion.p
-          initial={reduce ? false : { opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.25, duration: 0.5 }}
-          className="mt-6 max-w-md text-lg leading-relaxed text-ink-soft"
-        >
-          Şikâyetinizin olduğu dişe dokunun; o bölgedeki olası tedavileri ve ilgilenen uzmanları gösterelim. Ya da doğrudan hekim, klinik veya
-          tedavi arayın.
-        </motion.p>
-        <HeroSearch />
-        <ul className="mt-4 flex flex-wrap gap-2" aria-label="Sık aranan">
-          {quick.map((q) => (
-            <li key={q.label}>
-              <Link href={q.href} className="inline-flex rounded-full border border-line bg-enamel/60 px-3 py-1.5 text-sm text-ink-soft hover:border-ink hover:text-ink">
-                {q.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-10 max-w-md text-sm text-ink-faint">
-          8 ağız ve diş sağlığı merkezi, 40 hekim profili. Tüm profiller ve yorumlar okul projesi kapsamında oluşturulmuş örneklerdir.
-        </p>
-      </div>
-      <div className="min-w-0">
-        <Odontogram />
+          <Odontogram />
+        </motion.div>
       </div>
     </section>
   );

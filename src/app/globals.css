@@ -23,8 +23,8 @@
   --color-shade-b1: #f5eedd;
   --color-shade-b2: #e6d7b4;
 
-  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
-  --font-sans: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-source-serif), ui-serif, Georgia, serif;
 
   /* 1.25 oranlı ölçek */
@@ -59,7 +59,6 @@ html {
 body {
   background: var(--color-porcelain);
   font-family: var(--font-sans);
-  font-optical-sizing: auto;
   text-rendering: optimizeLegibility;
 }
 
@@ -68,10 +67,13 @@ body {
   color: white;
 }
 
-:focus-visible {
-  outline: 2px solid var(--color-curing);
-  outline-offset: 3px;
-  border-radius: 6px;
+/* Katman içinde tutulur ki bileşenlerdeki outline-none / focus-within halkaları bunu ezebilsin. */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-curing);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
 }
 
 .page {
@@ -96,12 +98,8 @@ body {
 }
 
 .display-tight {
-  font-variation-settings: "wdth" 78, "opsz" 96;
-  letter-spacing: -0.02em;
-}
-
-.display-wide {
-  font-variation-settings: "wdth" 100, "opsz" 96;
+  font-family: var(--font-display);
+  font-weight: 700;
   letter-spacing: -0.035em;
 }
 
@@ -174,6 +172,15 @@ body {
   color: var(--color-curing-deep);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 /* View Transitions: kart portresi → profil portresi */
