@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from "motion/react";
 import Fuse from "fuse.js";
 import { BookOpen, Building2, Search, Stethoscope, UserRound } from "lucide-react";
 import { specialties, treatments } from "@/data/specialties";
-import { doctorName } from "@/lib/format";
+import { doctorName, hospitalPlace } from "@/lib/format";
 import { useArticles, useDoctors, useHospitals } from "@/lib/repo";
 import { normalizeTr } from "@/lib/search";
 
@@ -43,15 +43,15 @@ export function useSearchIndex() {
           label: doctorName(d),
           sub: `${sp?.name ?? ""} — ${h?.name ?? ""}`,
           href: `/doktorlar/${d.slug}`,
-          text: normalizeTr(`${d.firstName} ${d.lastName} ${sp?.name} ${sp?.practitioner} ${h?.city} ${h?.district}`),
+          text: normalizeTr(`${d.firstName} ${d.lastName} ${sp?.name} ${sp?.practitioner} ${h?.neighborhood ?? ""} ${h?.district} ${h?.city}`),
         };
       }),
       ...hospitals.map((h) => ({
         kind: "hastane" as const,
         label: h.name,
-        sub: `${h.district}, ${h.city}`,
+        sub: hospitalPlace(h),
         href: `/hastaneler/${h.slug}`,
-        text: normalizeTr(`${h.name} ${h.city} ${h.district} ${h.type}`),
+        text: normalizeTr(`${h.name} ${h.neighborhood ?? ""} ${h.district} ${h.city} ${h.type}`),
       })),
       ...specialties.map((s) => ({
         kind: "tedavi" as const,
@@ -161,7 +161,7 @@ function SearchPanel({ onClose }: { onClose: () => void }) {
                 setActive((a) => Math.max(a - 1, 0));
               }
             }}
-            placeholder="Doktor adı, klinik, şehir ya da tedavi"
+            placeholder="Doktor adı, klinik, semt ya da tedavi"
             className="h-16 flex-1 bg-transparent text-lg outline-none placeholder:text-ink-faint"
             aria-label="Arama"
           />
@@ -169,7 +169,7 @@ function SearchPanel({ onClose }: { onClose: () => void }) {
         </form>
         <div className="max-h-[60vh] overflow-y-auto p-2">
           {q.trim().length < 2 ? (
-            <p className="px-3 py-6 text-sm text-ink-soft">Örneğin “kanal tedavisi”, “Kadıköy”, “ortodonti” ya da bir hekimin adını yazın.</p>
+            <p className="px-3 py-6 text-sm text-ink-soft">Örneğin “kanal tedavisi”, “Balat”, “ortodonti” ya da bir hekimin adını yazın.</p>
           ) : flat.length === 0 ? (
             <p className="px-3 py-6 text-sm text-ink-soft">“{q}” için sonuç yok. Yazımı kontrol edin ya da uzmanlık adıyla arayın.</p>
           ) : (

@@ -28,14 +28,14 @@ export const korfezDoctors = [
     ],
     thesis: "Sınıf II bölüm 1 maloklüzyonlu büyüme dönemindeki bireylerde fonksiyonel aparey tedavisinin hava yolu boyutlarına etkisi",
     experience: [
-      { role: "Ortodonti Uzmanı", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Karşıyaka", start: 2015, end: null },
+      { role: "Ortodonti Uzmanı", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2015, end: null },
       { role: "Diş Hekimi", place: "Özel diş polikliniği, Bornova", start: 2008, end: 2010 },
     ],
     certificates: [
       { name: "Erken dönem ortodontik tedavi kursu", issuer: "Türk Ortodonti Derneği", year: 2016 },
       { name: "Şeffaf plak sertifikalı uygulayıcı programı", issuer: "Uluslararası şeffaf plak üreticisi eğitim programı", year: 2018 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Ortodonti Derneği", "İzmir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Ortodonti Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Fonksiyonel aparey tedavisi ve hava yolu — uzmanlık tezi, 2014",
       "Ağız solunumu olan çocuklarda ortodontik bulgular — ulusal kongre bildirisi, 2019",
@@ -71,16 +71,16 @@ export const korfezDoctors = [
     ],
     thesis: "Okul öncesi çocuklarda flor vernik uygulamasının başlangıç çürük lezyonlarına etkisi",
     experience: [
-      { role: "Pedodonti Uzmanı", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Karşıyaka", start: 2016, end: null },
+      { role: "Pedodonti Uzmanı", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2016, end: null },
     ],
     certificates: [
       { name: "Çocuklarda davranış yönlendirme teknikleri kursu", issuer: "Türk Pedodonti Derneği", year: 2017 },
       { name: "Süt dişlerinde pulpa tedavileri kursu", issuer: "Türk Pedodonti Derneği", year: 2020 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Pedodonti Derneği", "İzmir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Pedodonti Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Flor vernik ve başlangıç çürükleri — uzmanlık tezi, 2016",
-      "İzmir'de okul çağı çocuklarda çürük prevalansı taraması — ulusal kongre posteri, 2018",
+      "İstanbul'da okul çağı çocuklarda çürük prevalansı taraması — ulusal kongre posteri, 2018",
     ],
     focus: ["cocuk", "fissur", "dolgu"],
     workingDays: weekdays,
@@ -108,14 +108,14 @@ export const korfezDoctors = [
     ],
     thesis: "Tip 2 diyabetli bireylerde dişeti oluğu sıvısı enflamatuvar belirteç düzeyleri ve periodontal tedavi yanıtı",
     experience: [
-      { role: "Periodontoloji Sorumlu Hekimi", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Karşıyaka", start: 2013, end: null },
+      { role: "Periodontoloji Sorumlu Hekimi", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2013, end: null },
       { role: "Periodontolog", place: "Özel diş hastanesi, Alsancak", start: 2008, end: 2013 },
     ],
     certificates: [
       { name: "Rejeneratif periodontal cerrahi kursu", issuer: "Türk Periodontoloji Derneği", year: 2011 },
       { name: "Temel implantoloji sertifika programı", issuer: "Uluslararası implantoloji derneği", year: 2009 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Periodontoloji Derneği", "Avrupa Periodontoloji Federasyonu üyesi dernek", "İzmir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Periodontoloji Derneği", "Avrupa Periodontoloji Federasyonu üyesi dernek", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Diyabet ve periodontal tedavi yanıtı — doktora tezi, 2008",
       "Kemik içi defektlerde rejeneratif tedavi: 3 yıllık sonuçlar — ulusal kongre bildirisi, 2015",
@@ -137,18 +137,18 @@ export const korfezDoctors = [
     languages: ["Türkçe", "İngilizce"],
     headline: "Aile hastalarının rutin kontrollerini, dolgu ve diş taşı temizliğini yapan genel diş hekimi.",
     about: [
-      "Dt. Burak Gündoğdu, Süleyman Demirel Üniversitesi Diş Hekimliği Fakültesinden mezun oldu. İki yıl Muş'ta kamuda görev yaptıktan sonra İzmir'e taşındı.",
+      "Dt. Burak Gündoğdu, Süleyman Demirel Üniversitesi Diş Hekimliği Fakültesinden mezun oldu. İki yıl Muş'ta kamuda görev yaptıktan sonra İstanbul'a taşındı.",
       "Körfez Gülüş'te yetişkin hastaların altı aylık kontrollerini, diş taşı temizliği, kompozit dolgu ve basit diş çekimlerini yapıyor. Kliniğe ilk kez gelen ailelerin tüm bireyleri için ortak bir kontrol takvimi oluşturuyor.",
     ],
     education: [
       { degree: "Diş Hekimliği Lisans", institution: "Süleyman Demirel Üniversitesi Diş Hekimliği Fakültesi", start: 2011, end: 2016 },
     ],
     experience: [
-      { role: "Diş Hekimi", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Karşıyaka", start: 2019, end: null },
+      { role: "Diş Hekimi", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2019, end: null },
       { role: "Diş Hekimi", place: "Muş İl Sağlık Müdürlüğüne bağlı ağız ve diş sağlığı merkezi", start: 2016, end: 2018 },
     ],
     certificates: [{ name: "Temel yaşam desteği sertifikası", issuer: "Sağlık Bakanlığı onaylı eğitim merkezi", year: 2023 }],
-    memberships: ["Türk Dişhekimleri Birliği", "İzmir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "İstanbul Dişhekimleri Odası"],
     publications: [],
     focus: ["muayene", "dolgu", "dis-tasi", "cekim"],
     workingDays: ["Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"],
@@ -180,11 +180,11 @@ export const korfezDoctors = [
     ],
     thesis: "Servikal dentin hassasiyetinin tedavisinde farklı desensitizan ajanların klinik etkinliği",
     experience: [
-      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Karşıyaka", start: 2019, end: null },
+      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Körfez Gülüş Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2019, end: null },
       { role: "Restoratif Diş Tedavisi Uzmanı", place: "Özel diş polikliniği, Buca", start: 2018, end: 2019 },
     ],
     certificates: [{ name: "Estetik kompozit tabakalama kursu", issuer: "Restoratif Diş Hekimliği Derneği", year: 2019 }],
-    memberships: ["Türk Dişhekimleri Birliği", "Restoratif Diş Hekimliği Derneği", "İzmir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Restoratif Diş Hekimliği Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Desensitizan ajanların klinik etkinliği — uzmanlık tezi, 2018",
       "Erozyon hastalarında diyet danışmanlığının rolü — ulusal kongre posteri, 2021",

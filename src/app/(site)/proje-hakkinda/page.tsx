@@ -14,7 +14,7 @@ const scope = [
   "Hastane profillerinde adres, iletişim, tedaviler, hekim listesi, puan ve yorumlar",
   "Üyelik ile 1–5 puan ve yazılı yorum; yönetici onayı sonrası yayın",
   "Kişisel veri, hakaret, reklam ve spam için otomatik moderasyon",
-  "İsim, uzmanlık, şehir, tedavi ve puana göre arama ve filtreleme",
+  "İsim, uzmanlık, hastane, semt, tedavi ve puana göre arama ve filtreleme",
   "Etkileşimli diş haritası (odontogram) ile şikâyetten uzmana yönlendirme",
   "8 konuda kaynakçalı sağlık rehberi",
   "Hastane, hekim, yorum, kullanıcı ve yazı yönetimi için yönetim paneli",

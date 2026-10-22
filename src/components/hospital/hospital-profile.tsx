@@ -8,7 +8,7 @@ import { RatingInline } from "@/components/rating/shade-rating";
 import { ReviewSection } from "@/components/review/review-section";
 import { FictionalBadge } from "@/components/ui/badges";
 import { NotFoundBlock } from "@/components/ui/not-found-block";
-import { CURRENT_YEAR, telHref } from "@/lib/format";
+import { CURRENT_YEAR, hospitalPlace, telHref } from "@/lib/format";
 import { emptySummary } from "@/lib/rating";
 import { useDoctors, useHospital, useHydrated, useSummaries, useSummary } from "@/lib/repo";
 import type { Hospital } from "@/lib/types";
@@ -42,10 +42,14 @@ function Profile({ hospital }: { hospital: Hospital }) {
             Hastaneler
           </Link>
           <ChevronRight className="size-3.5" />
-          <Link href={`/hastaneler?sehir=${encodeURIComponent(hospital.city)}`} className="hover:text-ink hover:underline">
-            {hospital.city}
-          </Link>
-          <ChevronRight className="size-3.5" />
+          {hospital.neighborhood && (
+            <>
+              <Link href={`/hastaneler?semt=${encodeURIComponent(hospital.neighborhood)}`} className="hover:text-ink hover:underline">
+                {hospital.neighborhood}
+              </Link>
+              <ChevronRight className="size-3.5" />
+            </>
+          )}
           <span className="text-ink">{hospital.name}</span>
         </nav>
 
@@ -53,7 +57,7 @@ function Profile({ hospital }: { hospital: Hospital }) {
           <div>
             <FictionalBadge />
             <p className="mt-4 text-lg text-ink-soft">
-              {hospital.type} — {hospital.district}, {hospital.city}
+              {hospital.type} — {hospitalPlace(hospital)}
             </p>
             <h1 className="display-tight mt-1 text-[clamp(2.5rem,6vw,4.75rem)] leading-[0.95] font-semibold text-balance">{hospital.name}</h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-soft">{hospital.summary}</p>
@@ -180,7 +184,7 @@ function Profile({ hospital }: { hospital: Hospital }) {
           </div>
           <div className="overflow-hidden rounded-[var(--radius-panel)] bg-enamel">
             <iframe
-              title={`${hospital.district}, ${hospital.city} haritası`}
+              title={`${hospitalPlace(hospital)} haritası`}
               src={`https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${lat},${lon}`}
               className="h-56 w-full border-0 grayscale-[35%]"
               loading="lazy"

@@ -7,6 +7,7 @@ import { treatments } from "@/data/specialties";
 import { useQueryState } from "@/components/filters/filter-ui";
 import { RatingInline } from "@/components/rating/shade-rating";
 import { toast } from "@/components/ui/toast";
+import { hospitalPlace } from "@/lib/format";
 import { emptySummary } from "@/lib/rating";
 import { repo, useDoctors, useHospitals, useSummaries } from "@/lib/repo";
 import { matchesQuery } from "@/lib/search";
@@ -40,7 +41,7 @@ function HospitalTable({ onEdit }: { onEdit: (id: string) => void }) {
   const doctors = useDoctors();
   const summaries = useSummaries("hospital");
   const [q, setQ] = useState("");
-  const list = useMemo(() => hospitals.filter((h) => !q || matchesQuery([h.name, h.city, h.district], q)), [hospitals, q]);
+  const list = useMemo(() => hospitals.filter((h) => !q || matchesQuery([h.name, h.neighborhood ?? "", h.district, h.city], q)), [hospitals, q]);
 
   return (
     <>
@@ -76,7 +77,7 @@ function HospitalTable({ onEdit }: { onEdit: (id: string) => void }) {
                   <p className="text-xs text-ink-soft">{h.type}</p>
                 </td>
                 <td className="px-4 py-3 text-ink-soft">
-                  {h.district}, {h.city}
+                  {hospitalPlace(h)}
                 </td>
                 <td className="tabular px-4 py-3">{doctors.filter((d) => d.hospitalId === h.id).length}</td>
                 <td className="px-4 py-3">
@@ -110,13 +111,14 @@ function blank(): Hospital {
     slug: "",
     name: "",
     type: "Diş Kliniği",
-    city: "",
-    district: "",
+    city: "İstanbul",
+    district: "Fatih",
+    neighborhood: "",
     address: "",
     phone: "",
     email: "",
     website: "",
-    coords: [39.92, 32.85],
+    coords: [41.0136, 28.9497],
     founded: 2020,
     chairs: 4,
     summary: "",
@@ -186,6 +188,7 @@ function HospitalForm({ initial, onDone }: { initial?: Hospital; onDone: () => v
         <FormSection title="Konum ve iletişim">
           <Input label="Şehir" value={h.city} onChange={(v) => up({ city: v })} required />
           <Input label="İlçe" value={h.district} onChange={(v) => up({ district: v })} required />
+          <Input label="Semt" value={h.neighborhood ?? ""} onChange={(v) => up({ neighborhood: v })} placeholder="Örn. Balat" />
           <Input label="Adres" value={h.address} onChange={(v) => up({ address: v })} wide required />
           <Input label="Telefon" value={h.phone} onChange={(v) => up({ phone: v })} placeholder="0212 555 00 00" />
           <Input label="E-posta" type="email" value={h.email} onChange={(v) => up({ email: v })} />

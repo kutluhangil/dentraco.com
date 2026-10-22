@@ -29,7 +29,7 @@ export const dentarisDoctors = [
     ],
     thesis: "Alt çene gömülü üçüncü büyük azı operasyonları sonrası ağrı ve şişliğin farklı ilaç protokolleriyle kontrolü",
     experience: [
-      { role: "Cerrahi Bölüm Başkanı", place: "Dentaris Boğaziçi Diş Hastanesi, Beşiktaş", start: 2016, end: null },
+      { role: "Cerrahi Bölüm Başkanı", place: "Dentaris Boğaziçi Diş Hastanesi, Fatih", start: 2016, end: null },
       { role: "Profesör", place: "İstanbul Üniversitesi Diş Hekimliği Fakültesi", start: 2010, end: 2016 },
       { role: "Doçent", place: "İstanbul Üniversitesi Diş Hekimliği Fakültesi", start: 2003, end: 2010 },
       { role: "Araştırma Görevlisi ve Uzman", place: "İstanbul Üniversitesi Diş Hekimliği Fakültesi", start: 1990, end: 2003 },
@@ -79,7 +79,7 @@ export const dentarisDoctors = [
     ],
     thesis: "Farklı bağlantı sistemli implant üstü hareketli protezlerde çiğneme etkinliği ve hasta memnuniyeti",
     experience: [
-      { role: "Protetik Diş Tedavisi Bölüm Sorumlusu", place: "Dentaris Boğaziçi Diş Hastanesi, Beşiktaş", start: 2018, end: null },
+      { role: "Protetik Diş Tedavisi Bölüm Sorumlusu", place: "Dentaris Boğaziçi Diş Hastanesi, Fatih", start: 2018, end: null },
       { role: "Doçent", place: "Ankara Üniversitesi Diş Hekimliği Fakültesi", start: 2014, end: 2018 },
       { role: "Dr. Öğretim Görevlisi", place: "Ankara Üniversitesi Diş Hekimliği Fakültesi", start: 2005, end: 2014 },
     ],
@@ -127,7 +127,7 @@ export const dentarisDoctors = [
     ],
     thesis: "Sınıf III iskeletsel bozukluklarda ortognatik cerrahi sonrası yumuşak doku değişimlerinin üç boyutlu analizi",
     experience: [
-      { role: "Ortodonti Uzmanı", place: "Dentaris Boğaziçi Diş Hastanesi, Beşiktaş", start: 2018, end: null },
+      { role: "Ortodonti Uzmanı", place: "Dentaris Boğaziçi Diş Hastanesi, Fatih", start: 2018, end: null },
       { role: "Ortodonti Uzmanı", place: "Özel ortodonti kliniği, Ankara", start: 2016, end: 2018 },
     ],
     certificates: [
@@ -170,7 +170,7 @@ export const dentarisDoctors = [
     ],
     thesis: "Alt çene kanalı varyasyonlarının konik ışınlı bilgisayarlı tomografi ile değerlendirilmesi",
     experience: [
-      { role: "Görüntüleme Birimi Sorumlusu", place: "Dentaris Boğaziçi Diş Hastanesi, Beşiktaş", start: 2016, end: null },
+      { role: "Görüntüleme Birimi Sorumlusu", place: "Dentaris Boğaziçi Diş Hastanesi, Fatih", start: 2016, end: null },
       { role: "Dr. Öğretim Üyesi (yarı zamanlı)", place: "İstanbul'da bir vakıf üniversitesi diş hekimliği fakültesi", start: 2016, end: null },
       { role: "Araştırma Görevlisi", place: "Ondokuz Mayıs Üniversitesi Diş Hekimliği Fakültesi", start: 2007, end: 2012 },
     ],
@@ -218,7 +218,7 @@ export const dentarisDoctors = [
     ],
     thesis: "Erken çocukluk çağı çürüklerinde ebeveyn eğitiminin çürük ilerleme hızına etkisi",
     experience: [
-      { role: "Pedodonti Uzmanı", place: "Dentaris Boğaziçi Diş Hastanesi, Beşiktaş", start: 2019, end: null },
+      { role: "Pedodonti Uzmanı", place: "Dentaris Boğaziçi Diş Hastanesi, Fatih", start: 2019, end: null },
       { role: "Pedodonti Uzmanı", place: "Özel çocuk diş kliniği, Bakırköy", start: 2017, end: 2019 },
     ],
     certificates: [

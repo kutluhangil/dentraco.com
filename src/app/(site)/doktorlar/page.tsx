@@ -5,7 +5,7 @@ import { ListSkeleton, PageIntro } from "@/components/ui/page-intro";
 
 export const metadata: Metadata = {
   title: "Diş hekimleri",
-  description: "40 diş hekimini uzmanlık alanı, şehir, hastane ve onaylı yorum puanına göre filtreleyin.",
+  description: "40 diş hekimini uzmanlık alanı, hastane ve onaylı yorum puanına göre filtreleyin.",
 };
 
 export default function DoctorsPage() {

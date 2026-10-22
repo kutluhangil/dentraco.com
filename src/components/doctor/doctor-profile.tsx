@@ -8,7 +8,7 @@ import { RatingInline } from "@/components/rating/shade-rating";
 import { ReviewSection } from "@/components/review/review-section";
 import { FictionalBadge } from "@/components/ui/badges";
 import { NotFoundBlock } from "@/components/ui/not-found-block";
-import { CURRENT_YEAR, doctorName, experienceYears, telHref } from "@/lib/format";
+import { CURRENT_YEAR, doctorName, experienceYears, hospitalPlace, telHref } from "@/lib/format";
 import { emptySummary } from "@/lib/rating";
 import { useDoctor, useDoctors, useHospitals, useHydrated, useSummaries, useSummary } from "@/lib/repo";
 import type { Doctor } from "@/lib/types";
@@ -80,7 +80,7 @@ function Profile({ doctor }: { doctor: Doctor }) {
               <p className="text-xs text-ink-faint">Hizmet verdiği merkez</p>
               <p className="mt-0.5 font-semibold">{hospital.name}</p>
               <p className="mt-0.5 text-sm text-ink-soft">
-                {hospital.district}, {hospital.city}
+                {hospitalPlace(hospital)}
               </p>
             </Link>
           )}

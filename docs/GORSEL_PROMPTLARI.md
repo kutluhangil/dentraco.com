@@ -55,7 +55,7 @@ Sosyal medya paylaşım görseli (OG) kodla üretilir; Gemini gerekmez.
 
 **Sitede nerede:** doktor kartları (ana sayfa, listeler; ~280 px), profil sol sütunu (340 px), liste satırları (88 px küçük resim), makale "uzman görüşü" kutusu (56 px). Yüz merkezde kalmalı ki küçük kırpmalarda da okunur olsun.
 
-### Mine Ağız ve Diş Sağlığı Merkezi — Kadıköy, İstanbul
+### Mine Ağız ve Diş Sağlığı Merkezi — Samatya, Fatih
 
 Forma: derin petrol mavisi (deep petrol blue) scrubs
 
@@ -109,7 +109,7 @@ Editorial studio headshot of a fictional 38-year-old Turkish man, short wavy dar
 Editorial studio headshot of a fictional 35-year-old Turkish woman, long wavy black hair worn loose over one shoulder, light makeup, bright attentive expression, no glasses, working as a dentist. Wearing deep petrol blue scrubs, a slim electric blue (#2D4BFF) pen clipped to the chest pocket. Head-and-shoulders crop, body turned slightly, face toward camera, calm confident expression with a soft closed-mouth smile. Plain seamless backdrop in cool porcelain grey-green (#EEF3F2). Large soft key light from camera left, subtle fill, faint rim light. Natural skin texture, realistic hair, 85mm lens at f/2.8, shallow depth of field. Vertical 4:5 aspect ratio.
 ```
 
-### Dentaris Boğaziçi Diş Hastanesi — Beşiktaş, İstanbul
+### Dentaris Boğaziçi Diş Hastanesi — Sirkeci, Fatih
 
 Forma: kömür grisi (charcoal grey) scrubs
 
@@ -163,7 +163,7 @@ Editorial studio headshot of a fictional 43-year-old Turkish woman, straight bla
 Editorial studio headshot of a fictional 37-year-old Turkish woman, light brown hair in a high ponytail, playful warm smile, small hoop earrings, no glasses, working as a dentist. Wearing charcoal grey scrubs, a slim electric blue (#2D4BFF) pen clipped to the chest pocket. Head-and-shoulders crop, body turned slightly, face toward camera, calm confident expression with a soft closed-mouth smile. Plain seamless backdrop in cool porcelain grey-green (#EEF3F2). Large soft key light from camera left, subtle fill, faint rim light. Natural skin texture, realistic hair, 85mm lens at f/2.8, shallow depth of field. Vertical 4:5 aspect ratio.
 ```
 
-### Kökyapı Diş Kliniği — Çankaya, Ankara
+### Kökyapı Diş Kliniği — Çapa, Fatih
 
 Forma: toprak yeşili (muted sage green) scrubs
 
@@ -217,7 +217,7 @@ Editorial studio headshot of a fictional 32-year-old Turkish woman wearing a nea
 Editorial studio headshot of a fictional 44-year-old Turkish man, short receding dark hair, trimmed goatee, steady reassuring expression, no glasses, working as a dentist. Wearing muted sage green scrubs, a slim electric blue (#2D4BFF) pen clipped to the chest pocket. Head-and-shoulders crop, body turned slightly, face toward camera, calm confident expression with a soft closed-mouth smile. Plain seamless backdrop in cool porcelain grey-green (#EEF3F2). Large soft key light from camera left, subtle fill, faint rim light. Natural skin texture, realistic hair, 85mm lens at f/2.8, shallow depth of field. Vertical 4:5 aspect ratio.
 ```
 
-### Körfez Gülüş Ağız ve Diş Sağlığı Merkezi — Karşıyaka, İzmir
+### Körfez Gülüş Ağız ve Diş Sağlığı Merkezi — Balat, Fatih
 
 Forma: açık deniz mavisi (soft sea blue) scrubs
 
@@ -271,7 +271,7 @@ Editorial studio headshot of a fictional 34-year-old Turkish man, short dark bro
 Editorial studio headshot of a fictional 36-year-old Turkish woman, sleek straight dark hair in a low ponytail, olive skin, slim black cat-eye glasses, poised friendly look, working as a dentist. Wearing soft sea blue scrubs, a slim electric blue (#2D4BFF) pen clipped to the chest pocket. Head-and-shoulders crop, body turned slightly, face toward camera, calm confident expression with a soft closed-mouth smile. Plain seamless backdrop in cool porcelain grey-green (#EEF3F2). Large soft key light from camera left, subtle fill, faint rim light. Natural skin texture, realistic hair, 85mm lens at f/2.8, shallow depth of field. Vertical 4:5 aspect ratio.
 ```
 
-### Nilüfer Kavis Diş Polikliniği — Nilüfer, Bursa
+### Nilüfer Kavis Diş Polikliniği — Topkapı, Fatih
 
 Forma: lacivert (navy) scrubs
 
@@ -325,7 +325,7 @@ Editorial studio headshot of a fictional 33-year-old Turkish man, medium-length 
 Editorial studio headshot of a fictional 38-year-old Turkish woman, dark brown hair in a sleek bob with side-swept bangs, minimal makeup, poised friendly expression, no glasses, working as a dentist. Wearing navy scrubs, a slim electric blue (#2D4BFF) pen clipped to the chest pocket. Head-and-shoulders crop, body turned slightly, face toward camera, calm confident expression with a soft closed-mouth smile. Plain seamless backdrop in cool porcelain grey-green (#EEF3F2). Large soft key light from camera left, subtle fill, faint rim light. Natural skin texture, realistic hair, 85mm lens at f/2.8, shallow depth of field. Vertical 4:5 aspect ratio.
 ```
 
-### Lara Mavi Kıyı Diş Hastanesi — Muratpaşa, Antalya
+### Lara Mavi Kıyı Diş Hastanesi — Yenikapı, Fatih
 
 Forma: beyaz önlük ve açık turkuaz (white coat over pale turquoise) scrubs
 
@@ -379,7 +379,7 @@ Editorial studio headshot of a fictional 40-year-old Turkish woman, dark curly h
 Editorial studio headshot of a fictional 41-year-old Turkish man, short neat black hair, clean-shaven, black thin-rimmed rectangular glasses, steady analytical expression with a polite smile, working as a dentist. Wearing white coat over pale turquoise scrubs, a slim electric blue (#2D4BFF) pen clipped to the chest pocket. Head-and-shoulders crop, body turned slightly, face toward camera, calm confident expression with a soft closed-mouth smile. Plain seamless backdrop in cool porcelain grey-green (#EEF3F2). Large soft key light from camera left, subtle fill, faint rim light. Natural skin texture, realistic hair, 85mm lens at f/2.8, shallow depth of field. Vertical 4:5 aspect ratio.
 ```
 
-### Porsuk Ortodonti ve İmplant Merkezi — Tepebaşı, Eskişehir
+### Porsuk Ortodonti ve İmplant Merkezi — Laleli, Fatih
 
 Forma: bordo (deep burgundy) scrubs
 
@@ -433,7 +433,7 @@ Editorial studio headshot of a fictional 39-year-old Turkish woman, shoulder-len
 Editorial studio headshot of a fictional 34-year-old Turkish woman, light brown wavy hair in a messy bun, youthful round face, playful warm smile, clear-frame round glasses, working as a dentist. Wearing deep burgundy scrubs, a slim electric blue (#2D4BFF) pen clipped to the chest pocket. Head-and-shoulders crop, body turned slightly, face toward camera, calm confident expression with a soft closed-mouth smile. Plain seamless backdrop in cool porcelain grey-green (#EEF3F2). Large soft key light from camera left, subtle fill, faint rim light. Natural skin texture, realistic hair, 85mm lens at f/2.8, shallow depth of field. Vertical 4:5 aspect ratio.
 ```
 
-### Sedef Diş Kliniği — Ortahisar, Trabzon
+### Sedef Diş Kliniği — Mercan, Fatih
 
 Forma: sedef beyazı ve gri (pearl white with grey trim) scrubs
 
@@ -498,7 +498,7 @@ Editorial studio headshot of a fictional 44-year-old Turkish man, short cropped 
 - **Alt metin:** Mine Ağız ve Diş Sağlığı Merkezi binası ve girişi (temsili)
 
 ```text
-Architectural exterior photograph of a fictional dental clinic: ground floor and first floor of a renovated 1930s Kadıköy apartment building with a pale stucco facade and tall windows, on a quiet tree-lined Moda side street, a discreet blank frosted-glass sign plate beside the entrance. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
+Architectural exterior photograph of a fictional dental clinic: ground floor and first floor of a renovated early-twentieth-century Samatya apartment building in Istanbul's Fatih district, pale stucco facade with tall windows and a small wrought-iron balcony, on a quiet sloping cobbled side street with a plane tree, a discreet blank frosted-glass sign plate beside the entrance. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
 ```
 
 ### Dentaris Boğaziçi Diş Hastanesi
@@ -508,7 +508,7 @@ Architectural exterior photograph of a fictional dental clinic: ground floor and
 - **Alt metin:** Dentaris Boğaziçi Diş Hastanesi binası ve girişi (temsili)
 
 ```text
-Architectural exterior photograph of a fictional dental hospital: a contemporary six-storey medical building in Beşiktaş with a facade of pale limestone panels and tall glass, wide entrance canopy, a few plane trees, late-morning light, blank backlit sign band above the entrance. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
+Architectural exterior photograph of a fictional dental hospital: a six-storey medical building in Sirkeci, Istanbul's historic peninsula, a restored late-Ottoman stone facade with tall arched windows on the lower floors and a discreet modern glass extension above, wide entrance canopy, the Bosphorus entrance glimpsed softly at the edge of frame, late-morning light, blank backlit sign band above the entrance. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
 ```
 
 ### Kökyapı Diş Kliniği
@@ -518,7 +518,7 @@ Architectural exterior photograph of a fictional dental hospital: a contemporary
 - **Alt metin:** Kökyapı Diş Kliniği binası ve girişi (temsili)
 
 ```text
-Architectural exterior photograph of a fictional dental clinic: a carefully renovated 1970s Ankara apartment block in Kavaklıdere with beige travertine cladding and balconies, the clinic occupies the fourth floor with large windows, street-level view with linden trees. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
+Architectural exterior photograph of a fictional dental clinic: a carefully renovated 1970s apartment block in Çapa, Fatih, Istanbul with beige travertine cladding and balconies, the clinic occupies the fourth floor with large windows, street-level view with linden trees and parked scooters. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
 ```
 
 ### Körfez Gülüş Ağız ve Diş Sağlığı Merkezi
@@ -528,7 +528,7 @@ Architectural exterior photograph of a fictional dental clinic: a carefully reno
 - **Alt metin:** Körfez Gülüş Ağız ve Diş Sağlığı Merkezi binası ve girişi (temsili)
 
 ```text
-Architectural exterior photograph of a fictional dental clinic: a modern four-storey seafront building on the Bostanlı promenade in İzmir with white render and horizontal balconies, palm trees and the bay glimpsed at the edge of frame, bright Aegean daylight. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
+Architectural exterior photograph of a fictional dental clinic: a restored four-storey row house on the Golden Horn waterfront in Balat, Istanbul, with a colorful but muted pastel facade, bay windows and wooden shutters, the Golden Horn water and a few seagulls glimpsed at the edge of frame, soft bright daylight. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
 ```
 
 ### Nilüfer Kavis Diş Polikliniği
@@ -538,7 +538,7 @@ Architectural exterior photograph of a fictional dental clinic: a modern four-st
 - **Alt metin:** Nilüfer Kavis Diş Polikliniği binası ve girişi (temsili)
 
 ```text
-Architectural exterior photograph of a fictional dental clinic: a contemporary low-rise office plaza in Nilüfer, Bursa with warm grey fiber-cement panels and a curved glass corner, small landscaped forecourt with grasses, Uludağ mountain faintly in the background haze. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
+Architectural exterior photograph of a fictional dental clinic: a contemporary mid-rise office plaza near the Topkapı city walls in Fatih, Istanbul, warm grey fiber-cement panels and a curved glass corner, small landscaped forecourt with grasses, a fragment of the old Byzantine stone walls faintly visible in the background. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
 ```
 
 ### Lara Mavi Kıyı Diş Hastanesi
@@ -548,7 +548,7 @@ Architectural exterior photograph of a fictional dental clinic: a contemporary l
 - **Alt metin:** Lara Mavi Kıyı Diş Hastanesi binası ve girişi (temsili)
 
 ```text
-Architectural exterior photograph of a fictional dental hospital: a bright white modern dental hospital in Lara, Antalya with deep sun-shading louvers, date palms, clear Mediterranean light and a pale blue sky. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
+Architectural exterior photograph of a fictional dental hospital: a bright white modern dental hospital on the Yenikapı seafront in Fatih, Istanbul, with deep horizontal sun-shading louvers, a few young plane trees, the Sea of Marmara and a distant ship on the horizon, clear coastal light and a pale blue sky. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
 ```
 
 ### Porsuk Ortodonti ve İmplant Merkezi
@@ -558,7 +558,7 @@ Architectural exterior photograph of a fictional dental hospital: a bright white
 - **Alt metin:** Porsuk Ortodonti ve İmplant Merkezi binası ve girişi (temsili)
 
 ```text
-Architectural exterior photograph of a fictional dental clinic: a three-storey modern building with light brick and large windows beside the Porsuk river in Eskişehir, a footbridge and willow trees nearby, soft afternoon light. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
+Architectural exterior photograph of a fictional dental clinic: a three-storey modern building with light brick and large windows on a busy avenue in Laleli, Fatih, Istanbul, a modern tram softly blurred passing in front, plane trees along the sidewalk, soft afternoon light. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
 ```
 
 ### Sedef Diş Kliniği
@@ -568,7 +568,7 @@ Architectural exterior photograph of a fictional dental clinic: a three-storey m
 - **Alt metin:** Sedef Diş Kliniği binası ve girişi (temsili)
 
 ```text
-Architectural exterior photograph of a fictional dental clinic: a restored nineteenth-century stone han building on Uzun Sokak in Trabzon's historic center, arched windows with dark green frames, light rain-washed cobblestones, overcast soft light. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
+Architectural exterior photograph of a fictional dental clinic: a restored eighteenth-century stone han building near the Grand Bazaar in Mercan, Fatih, Istanbul, arched windows with dark green frames and a heavy wooden entrance door, worn cobblestones, a mosque dome softly out of focus in the background, overcast soft light. Eye-level view from across the street, slight three-quarter angle, verticals corrected. A few passers-by softly blurred and unidentifiable. Calm, clean, trustworthy mood; the facade tones lean toward ivory and porcelain, shadows toward deep petrol. One small electric blue (#2D4BFF) accent such as a door handle or a bicycle. No readable text anywhere. Horizontal 16:9 aspect ratio.
 ```
 
 ## 3. Hastane tedavi odası görselleri
@@ -582,7 +582,7 @@ Architectural exterior photograph of a fictional dental clinic: a restored ninet
 - **Alt metin:** Mine Ağız ve Diş Sağlığı Merkezi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in İstanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Samatya, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Dentaris Boğaziçi Diş Hastanesi — tedavi odası
@@ -592,7 +592,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Dentaris Boğaziçi Diş Hastanesi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a hospital in İstanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a hospital in Sirkeci, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Kökyapı Diş Kliniği — tedavi odası
@@ -602,7 +602,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a hosp
 - **Alt metin:** Kökyapı Diş Kliniği tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Ankara. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Çapa, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Körfez Gülüş Ağız ve Diş Sağlığı Merkezi — tedavi odası
@@ -612,7 +612,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Körfez Gülüş Ağız ve Diş Sağlığı Merkezi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in İzmir. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight and a hint of sea view. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Balat, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight and a hint of Golden Horn view. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Nilüfer Kavis Diş Polikliniği — tedavi odası
@@ -622,7 +622,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Nilüfer Kavis Diş Polikliniği tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Bursa. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Topkapı, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Lara Mavi Kıyı Diş Hastanesi — tedavi odası
@@ -632,7 +632,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Lara Mavi Kıyı Diş Hastanesi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a hospital in Antalya. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight and a hint of sea view. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a hospital in Yenikapı, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight and a hint of Marmara sea view. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Porsuk Ortodonti ve İmplant Merkezi — tedavi odası
@@ -642,7 +642,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a hosp
 - **Alt metin:** Porsuk Ortodonti ve İmplant Merkezi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Eskişehir. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Laleli, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Sedef Diş Kliniği — tedavi odası
@@ -652,7 +652,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Sedef Diş Kliniği tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Trabzon. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Mercan, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ## 4. Sağlık rehberi kapakları

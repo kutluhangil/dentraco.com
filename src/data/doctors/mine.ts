@@ -21,7 +21,7 @@ export const mineDoctors = [
       { degree: "Diş Hekimliği Lisans", institution: "Marmara Üniversitesi Diş Hekimliği Fakültesi", start: 2009, end: 2014 },
     ],
     experience: [
-      { role: "Diş Hekimi", place: "Mine Ağız ve Diş Sağlığı Merkezi, Kadıköy", start: 2018, end: null },
+      { role: "Diş Hekimi", place: "Mine Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2018, end: null },
       { role: "Diş Hekimi", place: "Özel muayenehane, Ataşehir", start: 2016, end: 2018 },
       {
         role: "Diş Hekimi (devlet hizmet yükümlülüğü)",
@@ -67,7 +67,7 @@ export const mineDoctors = [
     ],
     thesis: "Farklı irrigasyon protokollerinin kök kanal dentininin mikrosertliği üzerine etkisinin in vitro değerlendirilmesi",
     experience: [
-      { role: "Endodonti Uzmanı", place: "Mine Ağız ve Diş Sağlığı Merkezi, Kadıköy", start: 2017, end: null },
+      { role: "Endodonti Uzmanı", place: "Mine Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2017, end: null },
       { role: "Endodonti Uzmanı", place: "Özel diş polikliniği, Bakırköy", start: 2014, end: 2017 },
       { role: "Diş Hekimi", place: "Özel muayenehane, Üsküdar", start: 2010, end: 2011 },
     ],
@@ -117,7 +117,7 @@ export const mineDoctors = [
     ],
     thesis: "Yetişkin bireylerde sabit ortodontik tedavi sırasında görülen apikal kök rezorpsiyonunun KIBT ile değerlendirilmesi",
     experience: [
-      { role: "Ortodonti Sorumlu Hekimi", place: "Mine Ağız ve Diş Sağlığı Merkezi, Kadıköy", start: 2015, end: null },
+      { role: "Ortodonti Sorumlu Hekimi", place: "Mine Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2015, end: null },
       { role: "Araştırma Görevlisi", place: "Hacettepe Üniversitesi Diş Hekimliği Fakültesi", start: 2008, end: 2013 },
     ],
     certificates: [
@@ -161,7 +161,7 @@ export const mineDoctors = [
     ],
     thesis: "Sigara içen ve içmeyen kronik periodontitis hastalarında cerrahi olmayan periodontal tedavinin klinik sonuçları",
     experience: [
-      { role: "Periodontoloji Uzmanı", place: "Mine Ağız ve Diş Sağlığı Merkezi, Kadıköy", start: 2019, end: null },
+      { role: "Periodontoloji Uzmanı", place: "Mine Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2019, end: null },
       { role: "Periodontoloji Uzmanı", place: "Özel diş hastanesi, Ankara", start: 2017, end: 2019 },
       { role: "Diş Hekimi", place: "Özel diş polikliniği, İzmir", start: 2012, end: 2014 },
     ],
@@ -205,7 +205,7 @@ export const mineDoctors = [
     ],
     thesis: "Ofis tipi ve ev tipi beyazlatma ajanlarının mine yüzey pürüzlülüğü ve renk stabilitesine etkisi",
     experience: [
-      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Mine Ağız ve Diş Sağlığı Merkezi, Kadıköy", start: 2020, end: null },
+      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Mine Ağız ve Diş Sağlığı Merkezi, Fatih", start: 2020, end: null },
       { role: "Restoratif Diş Tedavisi Uzmanı", place: "Özel diş polikliniği, Şişli", start: 2019, end: 2020 },
     ],
     certificates: [

@@ -23,7 +23,7 @@ export const porsukDoctors = [
     ],
     thesis: "Tek taraflı dudak-damak yarıklı bireylerde nazoalveolar şekillendirme tedavisinin burun simetrisine etkisi",
     experience: [
-      { role: "Kurucu Hekim", place: "Porsuk Ortodonti ve İmplant Merkezi, Tepebaşı", start: 2014, end: null },
+      { role: "Kurucu Hekim", place: "Porsuk Ortodonti ve İmplant Merkezi, Fatih", start: 2014, end: null },
       { role: "Doçent", place: "Bir devlet üniversitesi diş hekimliği fakültesi, Ortodonti Anabilim Dalı", start: 2013, end: 2014 },
       { role: "Dr. Öğretim Üyesi", place: "Bir devlet üniversitesi diş hekimliği fakültesi", start: 2006, end: 2013 },
     ],
@@ -31,7 +31,7 @@ export const porsukDoctors = [
       { name: "Dudak-damak yarığı multidisipliner tedavi kursu", issuer: "Türk Ortodonti Derneği", year: 2008 },
       { name: "Kendinden kilitli braket sistemleri kursu", issuer: "Türk Ortodonti Derneği", year: 2012 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Ortodonti Derneği", "Avrupa Ortodonti Derneği (EOS)", "Eskişehir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Ortodonti Derneği", "Avrupa Ortodonti Derneği (EOS)", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Dudak-damak yarığında nazoalveolar şekillendirme — doktora tezi, 2005",
       "Yarık damaklı hastalarda alveoler kemik grefti zamanlaması — uluslararası kongre bildirisi, 2011",
@@ -66,12 +66,12 @@ export const porsukDoctors = [
       },
     ],
     thesis: "Şeffaf plak tedavisinde planlanan ve gerçekleşen diş hareketlerinin dijital modeller üzerinde karşılaştırılması",
-    experience: [{ role: "Ortodonti Uzmanı", place: "Porsuk Ortodonti ve İmplant Merkezi, Tepebaşı", start: 2020, end: null }],
+    experience: [{ role: "Ortodonti Uzmanı", place: "Porsuk Ortodonti ve İmplant Merkezi, Fatih", start: 2020, end: null }],
     certificates: [
       { name: "Şeffaf plak sertifikalı uygulayıcı programı", issuer: "Uluslararası şeffaf plak üreticisi eğitim programı", year: 2021 },
       { name: "Dijital ortodonti ve 3B yazıcı kursu", issuer: "Türk Ortodonti Derneği", year: 2022 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Ortodonti Derneği", "Eskişehir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Ortodonti Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Şeffaf plakta tahmin edilebilirlik — uzmanlık tezi, 2020",
       "Ergenlerde şeffaf plak kullanım süresinin takibi — ulusal kongre posteri, 2023",
@@ -106,14 +106,14 @@ export const porsukDoctors = [
     ],
     thesis: "Trombositten zengin fibrin uygulamasının implant stabilitesine etkisinin rezonans frekans analiziyle değerlendirilmesi",
     experience: [
-      { role: "Çene Cerrahı", place: "Porsuk Ortodonti ve İmplant Merkezi, Tepebaşı", start: 2015, end: null },
+      { role: "Çene Cerrahı", place: "Porsuk Ortodonti ve İmplant Merkezi, Fatih", start: 2015, end: null },
       { role: "Çene Cerrahı", place: "Özel diş hastanesi, Konya", start: 2013, end: 2015 },
     ],
     certificates: [
       { name: "Kemik ogmentasyon teknikleri kursu", issuer: "Türk Ağız ve Çene Cerrahisi Derneği", year: 2016 },
       { name: "Rehberli implant cerrahisi eğitimi", issuer: "Uluslararası implantoloji derneği", year: 2020 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Ağız ve Çene Cerrahisi Derneği", "Eskişehir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Ağız ve Çene Cerrahisi Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "PRF ve implant stabilitesi — uzmanlık tezi, 2013",
       "Gömülü kaninlerin cerrahi-ortodontik tedavisi: vaka serisi — ulusal kongre bildirisi, 2019",
@@ -148,11 +148,11 @@ export const porsukDoctors = [
     ],
     thesis: "Sabit ortodontik tedavi gören bireylerde farklı ara yüz temizlik araçlarının dişeti enflamasyonuna etkisi",
     experience: [
-      { role: "Periodontoloji Uzmanı", place: "Porsuk Ortodonti ve İmplant Merkezi, Tepebaşı", start: 2016, end: null },
+      { role: "Periodontoloji Uzmanı", place: "Porsuk Ortodonti ve İmplant Merkezi, Fatih", start: 2016, end: null },
       { role: "Periodontoloji Uzmanı", place: "Özel diş polikliniği, Ankara", start: 2015, end: 2016 },
     ],
     certificates: [{ name: "Peri-implant hastalıkların yönetimi kursu", issuer: "Türk Periodontoloji Derneği", year: 2019 }],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Periodontoloji Derneği", "Eskişehir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Periodontoloji Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Ortodonti hastalarında ara yüz temizliği — uzmanlık tezi, 2015",
       "Peri-implant mukozitis tedavisinde mekanik debridman — ulusal kongre posteri, 2021",
@@ -186,12 +186,12 @@ export const porsukDoctors = [
       },
     ],
     thesis: "Molar-insizör hipomineralizasyonu görülen çocuklarda farklı restoratif materyallerin klinik başarısı",
-    experience: [{ role: "Pedodonti Uzmanı", place: "Porsuk Ortodonti ve İmplant Merkezi, Tepebaşı", start: 2021, end: null }],
+    experience: [{ role: "Pedodonti Uzmanı", place: "Porsuk Ortodonti ve İmplant Merkezi, Fatih", start: 2021, end: null }],
     certificates: [{ name: "Molar-insizör hipomineralizasyonu yönetimi kursu", issuer: "Türk Pedodonti Derneği", year: 2022 }],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Pedodonti Derneği", "Eskişehir Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Pedodonti Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "MIH'li dişlerde restoratif materyaller — uzmanlık tezi, 2020",
-      "Eskişehir'de 6–9 yaş çocuklarda MIH görülme sıklığı — ulusal kongre posteri, 2023",
+      "İstanbul'da 6–9 yaş çocuklarda MIH görülme sıklığı — ulusal kongre posteri, 2023",
     ],
     focus: ["cocuk", "fissur", "dolgu"],
     workingDays: weekdays,

@@ -19,6 +19,7 @@ create table hospitals (
   type text not null,
   city text not null,
   district text not null,
+  neighborhood text not null default '',
   address text not null,
   phone text,
   email text,

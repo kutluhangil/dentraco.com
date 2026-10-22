@@ -25,13 +25,11 @@ export function DoctorDirectory() {
 
   const q = get("q");
   const spec = getList("uzmanlik");
-  const cities = getList("sehir");
   const hospitalIds = getList("hastane");
   const min = Number(get("puan")) || 0;
   const sort = get("sirala") || "puan";
 
   const hospitalById = useMemo(() => new Map(hospitals.map((h) => [h.id, h])), [hospitals]);
-  const allCities = useMemo(() => [...new Set(hospitals.map((h) => h.city))].sort((a, b) => a.localeCompare(b, "tr")), [hospitals]);
 
   const results = useMemo(() => {
     const list = doctors.filter((d) => {
@@ -39,10 +37,9 @@ export function DoctorDirectory() {
       const s = summaries.get(d.id) ?? emptySummary;
       const sp = specialties.find((x) => x.id === d.specialty);
       if (spec.length && !spec.includes(d.specialty)) return false;
-      if (cities.length && (!h || !cities.includes(h.city))) return false;
       if (hospitalIds.length && !hospitalIds.includes(d.hospitalId)) return false;
       if (min && s.average < min) return false;
-      if (q && !matchesQuery([d.firstName, d.lastName, d.title, sp?.name ?? "", sp?.practitioner ?? "", h?.name ?? "", h?.city ?? "", h?.district ?? ""], q))
+      if (q && !matchesQuery([d.firstName, d.lastName, d.title, sp?.name ?? "", sp?.practitioner ?? "", h?.name ?? "", h?.neighborhood ?? "", h?.district ?? "", h?.city ?? ""], q))
         return false;
       return true;
     });
@@ -54,15 +51,15 @@ export function DoctorDirectory() {
       return weightedScore(score(b.id)) - weightedScore(score(a.id));
     });
     return list;
-  }, [doctors, hospitalById, summaries, spec, cities, hospitalIds, min, q, sort]);
+  }, [doctors, hospitalById, summaries, spec, hospitalIds, min, q, sort]);
 
-  const activeCount = spec.length + cities.length + hospitalIds.length + (min ? 1 : 0) + (q ? 1 : 0);
+  const activeCount = spec.length + hospitalIds.length + (min ? 1 : 0) + (q ? 1 : 0);
 
   return (
     <div className="grid gap-8 lg:grid-cols-[280px_1fr]">
-      <FilterShell activeCount={activeCount} onClear={() => set({ q: null, uzmanlik: null, sehir: null, hastane: null, puan: null })}>
+      <FilterShell activeCount={activeCount} onClear={() => set({ q: null, uzmanlik: null, hastane: null, puan: null })}>
         <FilterGroup title="İsim ya da anahtar kelime">
-          <SearchField id="doktor-ara" value={q} onChange={(v) => set({ q: v })} placeholder="Örn. Aksoy, implant, Kadıköy" />
+          <SearchField id="doktor-ara" value={q} onChange={(v) => set({ q: v })} placeholder="Örn. Aksoy, implant, Balat" />
         </FilterGroup>
         <FilterGroup title="Uzmanlık alanı">
           <CheckList
@@ -73,9 +70,6 @@ export function DoctorDirectory() {
         </FilterGroup>
         <FilterGroup title="En düşük puan">
           <MinRating value={min} onChange={(v) => set({ puan: v ? String(v) : null })} />
-        </FilterGroup>
-        <FilterGroup title="Şehir">
-          <CheckList options={allCities.map((c) => ({ value: c, label: c }))} selected={cities} onChange={(v) => set({ sehir: v })} />
         </FilterGroup>
         <FilterGroup title="Hastane">
           <CheckList options={hospitals.map((h) => ({ value: h.id, label: h.name }))} selected={hospitalIds} onChange={(v) => set({ hastane: v })} />
@@ -92,10 +86,10 @@ export function DoctorDirectory() {
         {results.length === 0 ? (
           <div className="rounded-[var(--radius-panel)] border border-dashed border-line p-8 text-center">
             <p className="font-semibold">Bu filtrelere uyan hekim yok.</p>
-            <p className="mt-1 text-ink-soft">Puan sınırını düşürün ya da şehir filtresini kaldırın.</p>
+            <p className="mt-1 text-ink-soft">Puan sınırını düşürün ya da hastane filtresini kaldırın.</p>
             <button
               type="button"
-              onClick={() => set({ q: null, uzmanlik: null, sehir: null, hastane: null, puan: null })}
+              onClick={() => set({ q: null, uzmanlik: null, hastane: null, puan: null })}
               className="mt-4 rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-white"
             >
               Filtreleri temizle

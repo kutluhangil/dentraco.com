@@ -1,6 +1,7 @@
 "use client";
 
 import { SmartImage } from "@/components/ui/smart-image";
+import { hospitalPlace } from "@/lib/format";
 import type { Hospital } from "@/lib/types";
 
 export function HospitalPlaceholder({ hospital, variant = "dis" }: { hospital: Hospital; variant?: "dis" | "ic" }) {
@@ -22,7 +23,7 @@ export function HospitalPlaceholder({ hospital, variant = "dis" }: { hospital: H
         ))}
       </svg>
       <span className="absolute bottom-3 left-4 text-xs font-medium text-ink/50">
-        {hospital.district}, {hospital.city}
+        {hospitalPlace(hospital)}
       </span>
     </div>
   );

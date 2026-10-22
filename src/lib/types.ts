@@ -59,6 +59,8 @@ export interface Hospital {
   type: "Diş Hastanesi" | "Ağız ve Diş Sağlığı Merkezi" | "Diş Polikliniği" | "Diş Kliniği";
   city: string;
   district: string;
+  /** Semt (ör. Balat); filtrelerde ve kısa konum gösteriminde kullanılır. */
+  neighborhood: string;
   address: string;
   phone: string;
   email: string;

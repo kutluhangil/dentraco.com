@@ -87,7 +87,7 @@ Dönen kelimeli başlık, hareketli arka plan, imleci izleyen ışık, sayan rak
 <table>
 <tr>
 <td width="50%"><img src="docs/readme/doktor.jpg" alt="Hekim profili: özgeçmiş düzeni"><p align="center"><sub>Hekim profili — özgeçmiş düzeni</sub></p></td>
-<td width="50%"><img src="docs/readme/liste.jpg" alt="Doktor listesi ve filtreler"><p align="center"><sub>Uzmanlık, şehir ve puana göre filtreleme</sub></p></td>
+<td width="50%"><img src="docs/readme/liste.jpg" alt="Doktor listesi ve filtreler"><p align="center"><sub>Uzmanlık, hastane ve puana göre filtreleme</sub></p></td>
 </tr>
 <tr>
 <td width="50%"><img src="docs/readme/admin.jpg" alt="Yönetim paneli: yorum moderasyonu"><p align="center"><sub>Yönetim paneli — işaretli yorumlar</sub></p></td>
@@ -119,9 +119,9 @@ flowchart LR
 | Sayfa | Adres | İçerik |
 |---|---|---|
 | Ana sayfa | `/` | Diş haritası, arama, rakamlar, tedavi bantları, öne çıkan hekimler, merkezler, rehber |
-| Doktorlar | `/doktorlar` | 40 hekim; isim, uzmanlık, şehir, hastane ve puan filtresi (bağlantıyla paylaşılabilir) |
+| Doktorlar | `/doktorlar` | 40 hekim; isim, uzmanlık, hastane ve puan filtresi (bağlantıyla paylaşılabilir) |
 | Hekim profili | `/doktorlar/[ad-soyad]` | Eğitim, tez, deneyim, sertifika, yayın, üyelik, çalışma günleri, yorumlar; yazdırılabilir |
-| Hastaneler | `/hastaneler` | 8 merkez; şehir, tedavi ve puan filtresi |
+| Hastaneler | `/hastaneler` | 8 merkez (hepsi İstanbul Fatih'te); semt, tedavi ve puan filtresi |
 | Hastane profili | `/hastaneler/[ad]` | Adres, iletişim, harita, saatler, tedaviler, hekim kadrosu, yorumlar |
 | Sağlık rehberi | `/saglik-rehberi` | Çürük, kanal, diş taşı, diş eti, implant, ortodonti, hijyen, koruyucu |
 | Profilim | `/profil` | Kullanıcının yorumları: onay bekliyor / yayında / reddedildi |

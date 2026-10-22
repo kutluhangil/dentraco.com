@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { treatmentById } from "@/data/specialties";
 import { RatingInline } from "@/components/rating/shade-rating";
+import { hospitalPlace } from "@/lib/format";
 import type { RatingSummary } from "@/lib/rating";
 import type { Hospital } from "@/lib/types";
 import { HospitalImage } from "./hospital-visual";
@@ -16,7 +17,7 @@ export function HospitalRow({ hospital, summary, doctorCount }: { hospital: Hosp
       <HospitalImage hospital={hospital} sizes="(min-width: 640px) 260px, 100vw" className="aspect-[16/10] rounded-[14px]" />
       <div className="min-w-0 py-1">
         <p className="text-sm text-ink-soft">
-          {hospital.type} — {hospital.district}, {hospital.city}
+          {hospital.type} — {hospitalPlace(hospital)}
         </p>
         <h3 className="mt-0.5 text-xl leading-snug font-semibold group-hover:underline group-hover:decoration-curing group-hover:underline-offset-4">
           {hospital.name}

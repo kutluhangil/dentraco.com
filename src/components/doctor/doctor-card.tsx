@@ -4,7 +4,7 @@ import Link from "next/link";
 import { MapPin } from "lucide-react";
 import { specialtyById } from "@/data/specialties";
 import { RatingInline } from "@/components/rating/shade-rating";
-import { doctorName, experienceYears } from "@/lib/format";
+import { doctorName, experienceYears, hospitalPlace } from "@/lib/format";
 import type { RatingSummary } from "@/lib/rating";
 import type { Doctor, Hospital } from "@/lib/types";
 import { DoctorPortrait } from "./doctor-portrait";
@@ -26,7 +26,7 @@ export function DoctorCard({ doctor, hospital, summary }: { doctor: Doctor; hosp
           <p className="mt-1 flex items-center gap-1 text-sm text-ink-soft">
             <MapPin className="size-3.5 shrink-0" />
             <span className="truncate">
-              {hospital.name}, {hospital.city}
+              {hospital.name}, {hospital.neighborhood || hospital.district}
             </span>
           </p>
         )}
@@ -52,7 +52,7 @@ export function DoctorRow({ doctor, hospital, summary }: { doctor: Doctor; hospi
           {doctorName(doctor)}
         </h3>
         <p className="mt-0.5 truncate text-sm text-ink-soft">
-          {hospital ? `${hospital.name} — ${hospital.district}, ${hospital.city}` : "Hastane bilgisi yok"}
+          {hospital ? `${hospital.name} — ${hospitalPlace(hospital)}` : "Hastane bilgisi yok"}
         </p>
         <div className="mt-2 sm:hidden">
           <RatingInline summary={summary} />

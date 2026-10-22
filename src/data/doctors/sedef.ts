@@ -13,22 +13,22 @@ export const sedefDoctors = [
     languages: ["Türkçe", "İngilizce"],
     headline: "Sedef'in kurucu hekimi; muayene, dolgu, diş taşı temizliği ve acil diş ağrısında genel diş hekimi.",
     about: [
-      "Dt. Yusuf Kalkan, Atatürk Üniversitesi Diş Hekimliği Fakültesinden mezun oldu. Yükümlülük hizmetini Hakkari'de tamamladıktan sonra Trabzon'da çeşitli polikliniklerde çalıştı ve 2019'da Sedef Diş Kliniğini kurdu.",
+      "Dt. Yusuf Kalkan, Atatürk Üniversitesi Diş Hekimliği Fakültesinden mezun oldu. Yükümlülük hizmetini Hakkari'de tamamladıktan sonra İstanbul'da çeşitli polikliniklerde çalıştı ve 2019'da Sedef Diş Kliniğini kurdu.",
       "Kliniğe başvuran hastaların ilk muayenesini yapıyor, temel tedavileri üstleniyor ve uzmanlık gerektiren vakaları klinikteki uzman hekimlere yönlendiriyor. Randevuları en az 40 dakikalık aralıklarla planlayarak her hastaya muayenede yeterli zaman ayırmayı önemsiyor.",
     ],
     education: [
       { degree: "Diş Hekimliği Lisans", institution: "Atatürk Üniversitesi Diş Hekimliği Fakültesi", start: 2007, end: 2012 },
     ],
     experience: [
-      { role: "Kurucu Hekim", place: "Sedef Diş Kliniği, Ortahisar", start: 2019, end: null },
-      { role: "Diş Hekimi", place: "Özel diş polikliniği, Trabzon", start: 2014, end: 2019 },
+      { role: "Kurucu Hekim", place: "Sedef Diş Kliniği, Fatih", start: 2019, end: null },
+      { role: "Diş Hekimi", place: "Özel diş polikliniği, Eyüpsultan", start: 2014, end: 2019 },
       { role: "Diş Hekimi", place: "Hakkari İl Sağlık Müdürlüğüne bağlı ağız ve diş sağlığı merkezi", start: 2012, end: 2014 },
     ],
     certificates: [
-      { name: "Diş hekimliğinde lokal anestezi teknikleri güncelleme kursu", issuer: "Trabzon Dişhekimleri Odası", year: 2018 },
+      { name: "Diş hekimliğinde lokal anestezi teknikleri güncelleme kursu", issuer: "İstanbul Dişhekimleri Odası", year: 2018 },
       { name: "Temel yaşam desteği sertifikası", issuer: "Sağlık Bakanlığı onaylı eğitim merkezi", year: 2022 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Trabzon Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "İstanbul Dişhekimleri Odası"],
     publications: [],
     focus: ["muayene", "dolgu", "dis-tasi", "acil", "cekim"],
     workingDays: ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"],
@@ -60,11 +60,11 @@ export const sedefDoctors = [
     ],
     thesis: "Süt azı dişlerinde farklı pulpotomi ajanlarının klinik ve radyografik başarısı",
     experience: [
-      { role: "Pedodonti Uzmanı", place: "Sedef Diş Kliniği, Ortahisar", start: 2019, end: null },
+      { role: "Pedodonti Uzmanı", place: "Sedef Diş Kliniği, Fatih", start: 2019, end: null },
       { role: "Pedodonti Uzmanı", place: "Özel çocuk diş kliniği, Samsun", start: 2018, end: 2019 },
     ],
     certificates: [{ name: "Çocuklarda davranış yönlendirme teknikleri kursu", issuer: "Türk Pedodonti Derneği", year: 2019 }],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Pedodonti Derneği", "Trabzon Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Pedodonti Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Süt azılarında pulpotomi ajanları — uzmanlık tezi, 2018",
       "Okul öncesi çocuklarda biberon çürüğü farkındalığı — ulusal kongre posteri, 2021",
@@ -99,11 +99,11 @@ export const sedefDoctors = [
     ],
     thesis: "Farklı apeks bulucu cihazların çalışma boyu belirlemedeki doğruluğunun karşılaştırılması",
     experience: [
-      { role: "Endodonti Uzmanı", place: "Sedef Diş Kliniği, Ortahisar", start: 2019, end: null },
-      { role: "Endodonti Uzmanı", place: "Özel diş hastanesi, Trabzon", start: 2012, end: 2019 },
+      { role: "Endodonti Uzmanı", place: "Sedef Diş Kliniği, Fatih", start: 2019, end: null },
+      { role: "Endodonti Uzmanı", place: "Özel diş hastanesi, Zeytinburnu", start: 2012, end: 2019 },
     ],
     certificates: [{ name: "Mikroskop destekli endodonti uygulamalı kursu", issuer: "Türk Endodonti Derneği", year: 2016 }],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Endodonti Derneği", "Trabzon Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Endodonti Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Apeks bulucuların doğruluğu — uzmanlık tezi, 2012",
       "Üst birinci büyük azılarda ikinci mezio-bukkal kanal sıklığı — ulusal kongre bildirisi, 2017",
@@ -138,11 +138,11 @@ export const sedefDoctors = [
     ],
     thesis: "Tam protez kullanan yaşlı bireylerde protez stomatitinin farklı temizlik yöntemleriyle tedavisi",
     experience: [
-      { role: "Protetik Diş Tedavisi Uzmanı", place: "Sedef Diş Kliniği, Ortahisar", start: 2020, end: null },
+      { role: "Protetik Diş Tedavisi Uzmanı", place: "Sedef Diş Kliniği, Fatih", start: 2020, end: null },
       { role: "Protetik Diş Tedavisi Uzmanı", place: "Özel diş polikliniği, Rize", start: 2014, end: 2020 },
     ],
     certificates: [{ name: "Hassas tutuculu protezler kursu", issuer: "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", year: 2017 }],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", "Trabzon Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Protez stomatiti ve temizlik yöntemleri — uzmanlık tezi, 2014",
       "Yaşlı hastalarda protez memnuniyeti anketi — ulusal kongre posteri, 2019",
@@ -177,14 +177,14 @@ export const sedefDoctors = [
     ],
     thesis: "Farklı ışık kaynaklarıyla polimerize edilen kompozit rezinlerin polimerizasyon derecesi ve sertliği",
     experience: [
-      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Sedef Diş Kliniği, Ortahisar", start: 2019, end: null },
-      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Özel diş hastanesi, Trabzon", start: 2010, end: 2019 },
+      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Sedef Diş Kliniği, Fatih", start: 2019, end: null },
+      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Özel diş hastanesi, Üsküdar", start: 2010, end: 2019 },
     ],
     certificates: [
       { name: "Estetik kompozit tabakalama kursu", issuer: "Restoratif Diş Hekimliği Derneği", year: 2013 },
       { name: "Porselen lamina uygulamalı kursu", issuer: "Restoratif Diş Hekimliği Derneği", year: 2016 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Restoratif Diş Hekimliği Derneği", "Trabzon Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Restoratif Diş Hekimliği Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Işık kaynakları ve kompozit polimerizasyonu — uzmanlık tezi, 2010",
       "Arka bölge kompozit restorasyonların 5 yıllık başarısı — ulusal kongre bildirisi, 2018",

@@ -1,10 +1,15 @@
-import type { Doctor } from "./types";
+import type { Doctor, Hospital } from "./types";
 
 const ratingFormat = new Intl.NumberFormat("tr-TR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
 const dateFormat = new Intl.DateTimeFormat("tr-TR", { day: "numeric", month: "long", year: "numeric", timeZone: "Europe/Istanbul" });
 const monthFormat = new Intl.DateTimeFormat("tr-TR", { month: "long", year: "numeric", timeZone: "UTC" });
 
 export const CURRENT_YEAR = 2026;
+
+/** Kısa konum: "Balat, Fatih". Semt girilmemiş eski kayıtlarda yalnızca ilçe döner. */
+export function hospitalPlace(h: Pick<Hospital, "neighborhood" | "district">) {
+  return [h.neighborhood, h.district].filter(Boolean).join(", ");
+}
 
 export function formatRating(value: number) {
   return ratingFormat.format(value);

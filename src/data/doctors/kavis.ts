@@ -28,16 +28,16 @@ export const kavisDoctors = [
     ],
     thesis: "Konvansiyonel ve dijital ölçü yöntemleriyle üretilen zirkonyum kronların kenar uyumunun karşılaştırılması",
     experience: [
-      { role: "Kurucu Ortak, Protetik Diş Tedavisi Uzmanı", place: "Nilüfer Kavis Diş Polikliniği, Bursa", start: 2017, end: null },
+      { role: "Kurucu Ortak, Protetik Diş Tedavisi Uzmanı", place: "Nilüfer Kavis Diş Polikliniği, Fatih", start: 2017, end: null },
       { role: "Protez Uzmanı, laboratuvar iş birliği", place: "Almanya'da bir dental laboratuvar", start: 2012, end: 2014 },
-      { role: "Protetik Diş Tedavisi Uzmanı", place: "Özel diş hastanesi, Bursa", start: 2014, end: 2017 },
+      { role: "Protetik Diş Tedavisi Uzmanı", place: "Özel diş hastanesi, Bayrampaşa", start: 2014, end: 2017 },
       { role: "Diş Hekimi", place: "Özel muayenehane, Osmangazi", start: 2006, end: 2009 },
     ],
     certificates: [
       { name: "Ağız içi tarayıcı ve CAD/CAM iş akışı eğitimi", issuer: "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", year: 2016 },
       { name: "İmplant protetiği ileri kursu", issuer: "Uluslararası implantoloji derneği", year: 2018 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", "Bursa Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Dijital ve konvansiyonel ölçüde kenar uyumu — uzmanlık tezi, 2012",
       "Tam ark implant üstü zirkonyum protezlerde komplikasyonlar — ulusal kongre bildirisi, 2020",
@@ -73,7 +73,7 @@ export const kavisDoctors = [
     ],
     thesis: "Gömülü alt üçüncü molar cerrahisinde farklı flep tasarımlarının postoperatif komplikasyonlara etkisi",
     experience: [
-      { role: "Çene Cerrahı", place: "Nilüfer Kavis Diş Polikliniği, Bursa", start: 2018, end: null },
+      { role: "Çene Cerrahı", place: "Nilüfer Kavis Diş Polikliniği, Fatih", start: 2018, end: null },
       { role: "Çene Cerrahı", place: "Özel diş hastanesi, Ankara", start: 2015, end: 2018 },
       { role: "Diş Hekimi", place: "Erzurum İl Sağlık Müdürlüğüne bağlı ağız ve diş sağlığı merkezi", start: 2009, end: 2011 },
     ],
@@ -81,7 +81,7 @@ export const kavisDoctors = [
       { name: "Sinüs yükseltme ve greft teknikleri kursu", issuer: "Türk Ağız ve Çene Cerrahisi Derneği", year: 2017 },
       { name: "Rehberli implant cerrahisi eğitimi", issuer: "Uluslararası implantoloji derneği", year: 2021 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Ağız ve Çene Cerrahisi Derneği", "Bursa Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Ağız ve Çene Cerrahisi Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Flep tasarımı ve postoperatif komplikasyonlar — uzmanlık tezi, 2015",
       "Rehberli cerrahi ile yerleştirilen implantlarda sapma analizi — ulusal kongre posteri, 2022",
@@ -116,11 +116,11 @@ export const kavisDoctors = [
     ],
     thesis: "Tek ve çok seanslı kök kanal tedavisinin postoperatif ağrı üzerine etkisinin randomize klinik değerlendirmesi",
     experience: [
-      { role: "Endodonti Uzmanı", place: "Nilüfer Kavis Diş Polikliniği, Bursa", start: 2019, end: null },
+      { role: "Endodonti Uzmanı", place: "Nilüfer Kavis Diş Polikliniği, Fatih", start: 2019, end: null },
       { role: "Diş Hekimi", place: "Özel diş polikliniği, Samsun", start: 2013, end: 2015 },
     ],
     certificates: [{ name: "Döner alet sistemleri ile kanal şekillendirme kursu", issuer: "Türk Endodonti Derneği", year: 2019 }],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Endodonti Derneği", "Bursa Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Endodonti Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Tek ve çok seanslı kanal tedavisinde ağrı — uzmanlık tezi, 2018",
       "Kanal tedavisi öncesi analjezik kullanımı — ulusal kongre bildirisi, 2020",
@@ -148,11 +148,11 @@ export const kavisDoctors = [
       { degree: "Diş Hekimliği Lisans", institution: "Cumhuriyet Üniversitesi Diş Hekimliği Fakültesi", start: 2012, end: 2017 },
     ],
     experience: [
-      { role: "Diş Hekimi", place: "Nilüfer Kavis Diş Polikliniği, Bursa", start: 2020, end: null },
+      { role: "Diş Hekimi", place: "Nilüfer Kavis Diş Polikliniği, Fatih", start: 2020, end: null },
       { role: "Diş Hekimi", place: "Özel diş polikliniği, Sivas", start: 2017, end: 2020 },
     ],
-    certificates: [{ name: "Diş hekimliğinde dijital fotoğrafçılık kursu", issuer: "Bursa Dişhekimleri Odası", year: 2021 }],
-    memberships: ["Türk Dişhekimleri Birliği", "Bursa Dişhekimleri Odası"],
+    certificates: [{ name: "Diş hekimliğinde dijital fotoğrafçılık kursu", issuer: "İstanbul Dişhekimleri Odası", year: 2021 }],
+    memberships: ["Türk Dişhekimleri Birliği", "İstanbul Dişhekimleri Odası"],
     publications: [],
     focus: ["muayene", "dolgu", "dis-tasi", "acil", "cekim"],
     workingDays: ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma"],
@@ -184,13 +184,13 @@ export const kavisDoctors = [
     ],
     thesis: "Şeffaf plak ve sabit apareyle tedavi edilen yetişkinlerde periodontal sağlık ve yaşam kalitesinin karşılaştırılması",
     experience: [
-      { role: "Ortodonti Uzmanı", place: "Nilüfer Kavis Diş Polikliniği, Bursa", start: 2018, end: null },
+      { role: "Ortodonti Uzmanı", place: "Nilüfer Kavis Diş Polikliniği, Fatih", start: 2018, end: null },
       { role: "Ortodonti Uzmanı", place: "Özel ortodonti kliniği, Konya", start: 2017, end: 2018 },
     ],
     certificates: [
       { name: "Şeffaf plak sertifikalı uygulayıcı programı", issuer: "Uluslararası şeffaf plak üreticisi eğitim programı", year: 2018 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Ortodonti Derneği", "Bursa Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Ortodonti Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Şeffaf plak ve periodontal sağlık — uzmanlık tezi, 2017",
       "Pre-protetik ortodonti: disiplinlerarası vaka — ulusal kongre posteri, 2021",

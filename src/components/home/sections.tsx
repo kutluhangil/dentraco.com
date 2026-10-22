@@ -9,6 +9,7 @@ import { DoctorCard } from "@/components/doctor/doctor-card";
 import { HospitalImage } from "@/components/hospital/hospital-visual";
 import { RatingInline } from "@/components/rating/shade-rating";
 import { SmartImage } from "@/components/ui/smart-image";
+import { hospitalPlace } from "@/lib/format";
 import { emptySummary, weightedScore } from "@/lib/rating";
 import { useArticles, useDoctors, useHospitals, useReviews, useSummaries } from "@/lib/repo";
 import { CountUp, Marquee, Reveal, TiltCard } from "./motion-bits";
@@ -127,7 +128,7 @@ export function HospitalStrip() {
     <section className="bg-enamel py-16 lg:py-20" aria-label="Hastaneler">
       <div className="page">
         <SectionHead
-          title="Yedi şehirde sekiz merkez"
+          title="Fatih'te sekiz merkez"
           sub="Diş hastaneleri, ağız ve diş sağlığı merkezleri ve klinikler. Her birinin adresi, tedavileri ve hekim kadrosu tek sayfada."
           href="/hastaneler"
           cta="Tüm hastaneler"
@@ -149,9 +150,7 @@ export function HospitalStrip() {
                     className="aspect-[16/10] transition-transform duration-700 ease-out group-hover:scale-[1.06]"
                   />
                 </div>
-                <p className="mt-3 text-sm text-ink-soft">
-                  {h.district}, {h.city}
-                </p>
+                <p className="mt-3 text-sm text-ink-soft">{hospitalPlace(h)}</p>
                 <h3 className="leading-snug font-semibold group-hover:underline group-hover:decoration-curing group-hover:underline-offset-4">{h.name}</h3>
                 <div className="mt-1.5 flex flex-wrap items-center justify-between gap-x-2 gap-y-1">
                   <RatingInline summary={summaries.get(h.id) ?? emptySummary} />

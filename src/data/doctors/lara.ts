@@ -28,7 +28,7 @@ export const laraDoctors = [
     ],
     thesis: "Otojen ve ksenojen kemik greftlerinin sinüs tabanı yükseltmede yeni kemik oluşumu açısından histomorfometrik karşılaştırması",
     experience: [
-      { role: "Cerrahi Bölüm Sorumlusu", place: "Lara Mavi Kıyı Diş Hastanesi, Muratpaşa", start: 2017, end: null },
+      { role: "Cerrahi Bölüm Sorumlusu", place: "Lara Mavi Kıyı Diş Hastanesi, Fatih", start: 2017, end: null },
       { role: "Doçent", place: "Bir devlet üniversitesi diş hekimliği fakültesi, Ağız, Diş ve Çene Cerrahisi Anabilim Dalı", start: 2015, end: 2017 },
       { role: "Dr. Öğretim Üyesi", place: "Bir devlet üniversitesi diş hekimliği fakültesi", start: 2007, end: 2015 },
     ],
@@ -40,7 +40,7 @@ export const laraDoctors = [
       "Türk Dişhekimleri Birliği",
       "Türk Ağız ve Çene Cerrahisi Derneği",
       "Uluslararası Oral ve Maksillofasiyal Cerrahlar Derneği (IAOMS)",
-      "Antalya Dişhekimleri Odası",
+      "İstanbul Dişhekimleri Odası",
     ],
     publications: [
       "Sinüs tabanı yükseltmede greft materyalleri — doktora tezi, 2006",
@@ -77,14 +77,14 @@ export const laraDoctors = [
     ],
     thesis: "Farklı simantasyon protokollerinin lityum disilikat laminaların bağlanma dayanımına etkisi",
     experience: [
-      { role: "Protetik Diş Tedavisi Uzmanı", place: "Lara Mavi Kıyı Diş Hastanesi, Muratpaşa", start: 2014, end: null },
+      { role: "Protetik Diş Tedavisi Uzmanı", place: "Lara Mavi Kıyı Diş Hastanesi, Fatih", start: 2014, end: null },
       { role: "Protetik Diş Tedavisi Uzmanı", place: "Özel diş polikliniği, Konya", start: 2011, end: 2014 },
     ],
     certificates: [
       { name: "Estetik lamina preparasyon kursu", issuer: "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", year: 2015 },
       { name: "Dijital gülüş tasarımı eğitimi", issuer: "Uluslararası estetik diş hekimliği eğitim programı", year: 2018 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", "Antalya Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Lamina simantasyon protokolleri — uzmanlık tezi, 2011",
       "Monolitik ve tabakalı zirkonyumda renk uyumu — ulusal kongre posteri, 2019",
@@ -119,14 +119,14 @@ export const laraDoctors = [
     ],
     thesis: "Farklı cila sistemlerinin nanohibrit kompozitlerin yüzey parlaklığı ve renk değişimine etkisi",
     experience: [
-      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Lara Mavi Kıyı Diş Hastanesi, Muratpaşa", start: 2018, end: null },
+      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Lara Mavi Kıyı Diş Hastanesi, Fatih", start: 2018, end: null },
       { role: "Restoratif Diş Tedavisi Uzmanı", place: "Özel diş kliniği, Nişantaşı", start: 2017, end: 2018 },
     ],
     certificates: [
       { name: "Dijital gülüş tasarımı eğitimi", issuer: "Uluslararası estetik diş hekimliği eğitim programı", year: 2018 },
       { name: "Direkt kompozit lamina ileri kursu", issuer: "Restoratif Diş Hekimliği Derneği", year: 2020 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Restoratif Diş Hekimliği Derneği", "Antalya Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Restoratif Diş Hekimliği Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Cila sistemleri ve kompozit yüzeyi — uzmanlık tezi, 2017",
       "Direkt kompozit laminaların 2 yıllık klinik takibi — ulusal kongre bildirisi, 2022",
@@ -161,14 +161,14 @@ export const laraDoctors = [
     ],
     thesis: "Gingival çekilmelerin tedavisinde koronale kaydırılan flep ile bağ dokusu greftinin karşılaştırılması",
     experience: [
-      { role: "Periodontoloji Uzmanı", place: "Lara Mavi Kıyı Diş Hastanesi, Muratpaşa", start: 2015, end: null },
+      { role: "Periodontoloji Uzmanı", place: "Lara Mavi Kıyı Diş Hastanesi, Fatih", start: 2015, end: null },
       { role: "Periodontoloji Uzmanı", place: "Özel diş polikliniği, Isparta", start: 2014, end: 2015 },
     ],
     certificates: [
       { name: "Periodontal plastik cerrahi kursu", issuer: "Türk Periodontoloji Derneği", year: 2016 },
       { name: "Diş hekimliğinde lazer uygulamaları sertifikası", issuer: "Diş hekimliği lazer derneği", year: 2019 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Periodontoloji Derneği", "Antalya Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Periodontoloji Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Gingival çekilme tedavisinde flep ve greft — uzmanlık tezi, 2014",
       "Pembe estetik skorunun ortodontik hastalarda değerlendirilmesi — ulusal kongre posteri, 2018",
@@ -204,14 +204,14 @@ export const laraDoctors = [
     ],
     thesis: "Temporomandibular eklem bozukluğu olan hastalarda kondil morfolojisinin konik ışınlı bilgisayarlı tomografi ile değerlendirilmesi",
     experience: [
-      { role: "Görüntüleme Birimi Sorumlusu", place: "Lara Mavi Kıyı Diş Hastanesi, Muratpaşa", start: 2016, end: null },
+      { role: "Görüntüleme Birimi Sorumlusu", place: "Lara Mavi Kıyı Diş Hastanesi, Fatih", start: 2016, end: null },
       { role: "Diş Hekimi", place: "Özel diş hastanesi, Erzurum", start: 2013, end: 2016 },
     ],
     certificates: [
       { name: "Radyasyon güvenliği sorumlusu eğitimi", issuer: "Nükleer düzenleyici kurum onaylı eğitim", year: 2016 },
       { name: "İleri KIBT raporlama kursu", issuer: "Dento-Maksillofasiyal Radyoloji Derneği", year: 2018 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Dento-Maksillofasiyal Radyoloji Derneği", "Antalya Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Dento-Maksillofasiyal Radyoloji Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "TME bozukluklarında kondil morfolojisi — doktora tezi, 2013",
       "İmplant planlamasında panoramik ve tomografi ölçümlerinin karşılaştırılması — ulusal kongre bildirisi, 2019",

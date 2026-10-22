@@ -123,7 +123,7 @@ function HeroSearch() {
           onChange={(e) => setQ(e.target.value)}
           onFocus={() => setFocused(true)}
           onBlur={() => setTimeout(() => setFocused(false), 150)}
-          placeholder="Doktor, hastane, tedavi ya da şehir"
+          placeholder="Doktor, hastane, tedavi ya da semt"
           className="h-full min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-ink-faint"
         />
         <button type="submit" className="h-11 shrink-0 rounded-full bg-curing px-5 text-sm font-medium text-white hover:bg-curing-deep">

@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: PageProps<"/hastaneler/[slug]
   const { slug } = await params;
   const h = hospitals.find((x) => x.slug === slug);
   if (!h) return { title: "Hastane" };
-  return { title: `${h.name} — ${h.district}, ${h.city}`, description: h.summary };
+  return { title: `${h.name} — ${[h.neighborhood, h.district].filter(Boolean).join(", ")}`, description: h.summary };
 }
 
 async function Content({ params }: { params: PageProps<"/hastaneler/[slug]">["params"] }) {

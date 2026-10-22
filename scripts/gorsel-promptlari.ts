@@ -19,20 +19,20 @@ plastic or airbrushed skin, uncanny teeth, exaggerated smile, braces on adults u
 medical gore, celebrity likeness, extra fingers, distorted hands, duplicated objects, fisheye distortion, vignette, HDR halos`;
 
 const architecture: Record<string, string> = {
-  mine: "ground floor and first floor of a renovated 1930s Kadıköy apartment building with a pale stucco facade and tall windows, on a quiet tree-lined Moda side street, a discreet blank frosted-glass sign plate beside the entrance",
+  mine: "ground floor and first floor of a renovated early-twentieth-century Samatya apartment building in Istanbul's Fatih district, pale stucco facade with tall windows and a small wrought-iron balcony, on a quiet sloping cobbled side street with a plane tree, a discreet blank frosted-glass sign plate beside the entrance",
   dentaris:
-    "a contemporary six-storey medical building in Beşiktaş with a facade of pale limestone panels and tall glass, wide entrance canopy, a few plane trees, late-morning light, blank backlit sign band above the entrance",
+    "a six-storey medical building in Sirkeci, Istanbul's historic peninsula, a restored late-Ottoman stone facade with tall arched windows on the lower floors and a discreet modern glass extension above, wide entrance canopy, the Bosphorus entrance glimpsed softly at the edge of frame, late-morning light, blank backlit sign band above the entrance",
   kokyapi:
-    "a carefully renovated 1970s Ankara apartment block in Kavaklıdere with beige travertine cladding and balconies, the clinic occupies the fourth floor with large windows, street-level view with linden trees",
+    "a carefully renovated 1970s apartment block in Çapa, Fatih, Istanbul with beige travertine cladding and balconies, the clinic occupies the fourth floor with large windows, street-level view with linden trees and parked scooters",
   korfez:
-    "a modern four-storey seafront building on the Bostanlı promenade in İzmir with white render and horizontal balconies, palm trees and the bay glimpsed at the edge of frame, bright Aegean daylight",
+    "a restored four-storey row house on the Golden Horn waterfront in Balat, Istanbul, with a colorful but muted pastel facade, bay windows and wooden shutters, the Golden Horn water and a few seagulls glimpsed at the edge of frame, soft bright daylight",
   kavis:
-    "a contemporary low-rise office plaza in Nilüfer, Bursa with warm grey fiber-cement panels and a curved glass corner, small landscaped forecourt with grasses, Uludağ mountain faintly in the background haze",
-  lara: "a bright white modern dental hospital in Lara, Antalya with deep sun-shading louvers, date palms, clear Mediterranean light and a pale blue sky",
+    "a contemporary mid-rise office plaza near the Topkapı city walls in Fatih, Istanbul, warm grey fiber-cement panels and a curved glass corner, small landscaped forecourt with grasses, a fragment of the old Byzantine stone walls faintly visible in the background",
+  lara: "a bright white modern dental hospital on the Yenikapı seafront in Fatih, Istanbul, with deep horizontal sun-shading louvers, a few young plane trees, the Sea of Marmara and a distant ship on the horizon, clear coastal light and a pale blue sky",
   porsuk:
-    "a three-storey modern building with light brick and large windows beside the Porsuk river in Eskişehir, a footbridge and willow trees nearby, soft afternoon light",
+    "a three-storey modern building with light brick and large windows on a busy avenue in Laleli, Fatih, Istanbul, a modern tram softly blurred passing in front, plane trees along the sidewalk, soft afternoon light",
   sedef:
-    "a restored nineteenth-century stone han building on Uzun Sokak in Trabzon's historic center, arched windows with dark green frames, light rain-washed cobblestones, overcast soft light",
+    "a restored eighteenth-century stone han building near the Grand Bazaar in Mercan, Fatih, Istanbul, arched windows with dark green frames and a heavy wooden entrance door, worn cobblestones, a mosque dome softly out of focus in the background, overcast soft light",
 };
 
 const covers: Record<string, string> = {
@@ -119,7 +119,7 @@ push();
 push("**Sitede nerede:** doktor kartları (ana sayfa, listeler; ~280 px), profil sol sütunu (340 px), liste satırları (88 px küçük resim), makale \"uzman görüşü\" kutusu (56 px). Yüz merkezde kalmalı ki küçük kırpmalarda da okunur olsun.");
 push();
 for (const h of hospitals) {
-  push(`### ${h.name} — ${h.district}, ${h.city}`);
+  push(`### ${h.name} — ${h.neighborhood}, ${h.district}`);
   push();
   push(`Forma: ${h.uniformColor}`);
   push();
@@ -179,9 +179,9 @@ for (const h of hospitals) {
   push();
   push("```text");
   push(
-    `Interior photograph of an empty, spotless modern dental treatment room in a ${h.type === "Diş Hastanesi" ? "hospital" : "boutique clinic"} in ${h.city}. ` +
+    `Interior photograph of an empty, spotless modern dental treatment room in a ${h.type === "Diş Hastanesi" ? "hospital" : "boutique clinic"} in ${h.neighborhood}, Istanbul. ` +
       `A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, ` +
-      `walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight${h.id === "lara" || h.id === "korfez" ? " and a hint of sea view" : ""}. ` +
+      `walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight${h.id === "lara" ? " and a hint of Marmara sea view" : h.id === "korfez" ? " and a hint of Golden Horn view" : ""}. ` +
       `One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. ` +
       `Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.`,
   );

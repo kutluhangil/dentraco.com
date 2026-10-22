@@ -23,15 +23,15 @@ export const kokyapiDoctors = [
     ],
     thesis: "Kök kanalında kırılan nikel-titanyum eğelerin ultrasonik yöntemle çıkarılmasının kök dentinine etkisi",
     experience: [
-      { role: "Kurucu Hekim", place: "Kökyapı Diş Kliniği, Çankaya", start: 2015, end: null },
-      { role: "Endodonti Bölüm Sorumlusu", place: "Özel diş hastanesi, Ankara", start: 2009, end: 2015 },
+      { role: "Kurucu Hekim", place: "Kökyapı Diş Kliniği, Fatih", start: 2015, end: null },
+      { role: "Endodonti Bölüm Sorumlusu", place: "Özel diş hastanesi, Şişli", start: 2009, end: 2015 },
       { role: "Araştırma Görevlisi", place: "Hacettepe Üniversitesi Diş Hekimliği Fakültesi", start: 2004, end: 2009 },
     ],
     certificates: [
       { name: "Endodontik mikrocerrahi uygulamalı kursu", issuer: "Avrupa Endodonti Derneği bölgesel eğitimi", year: 2012 },
       { name: "Mikroskop destekli endodonti ileri kursu", issuer: "Türk Endodonti Derneği", year: 2010 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Endodonti Derneği", "Avrupa Endodonti Derneği (ESE)", "Ankara Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Endodonti Derneği", "Avrupa Endodonti Derneği (ESE)", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Kırık eğe çıkarımı ve kök dentini — doktora tezi, 2009",
       "Yeniden kanal tedavisinde başarı oranları: 5 yıllık klinik takip — ulusal kongre bildirisi, 2018",
@@ -68,14 +68,14 @@ export const kokyapiDoctors = [
     ],
     thesis: "Farklı kalsiyum silikat esaslı materyallerin pulpa kuafajı sonrası dentin köprüsü oluşumuna etkisi",
     experience: [
-      { role: "Endodonti Uzmanı", place: "Kökyapı Diş Kliniği, Çankaya", start: 2019, end: null },
+      { role: "Endodonti Uzmanı", place: "Kökyapı Diş Kliniği, Fatih", start: 2019, end: null },
       { role: "Endodonti Uzmanı", place: "Özel diş polikliniği, Keçiören", start: 2018, end: 2019 },
     ],
     certificates: [
       { name: "Dental travma yönetimi kursu", issuer: "Türk Endodonti Derneği", year: 2019 },
       { name: "Rejeneratif endodonti eğitimi", issuer: "Avrupa Endodonti Derneği bölgesel eğitimi", year: 2021 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Endodonti Derneği", "Ankara Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Endodonti Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Pulpa kuafaj materyalleri ve dentin köprüsü — uzmanlık tezi, 2018",
       "Avülsiyona uğramış dişlerde replantasyon: iki vaka — ulusal kongre posteri, 2020",
@@ -110,7 +110,7 @@ export const kokyapiDoctors = [
     ],
     thesis: "Endodontik tedavili büyük azı dişlerinde farklı restorasyon tiplerinin kırılma direncine etkisi",
     experience: [
-      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Kökyapı Diş Kliniği, Çankaya", start: 2016, end: null },
+      { role: "Restoratif Diş Tedavisi Uzmanı", place: "Kökyapı Diş Kliniği, Fatih", start: 2016, end: null },
       { role: "Restoratif Diş Tedavisi Uzmanı", place: "Özel diş hastanesi, Konya", start: 2015, end: 2016 },
     ],
     certificates: [
@@ -145,11 +145,11 @@ export const kokyapiDoctors = [
       { degree: "Diş Hekimliği Lisans", institution: "Ankara Üniversitesi Diş Hekimliği Fakültesi", start: 2013, end: 2018 },
     ],
     experience: [
-      { role: "Diş Hekimi", place: "Kökyapı Diş Kliniği, Çankaya", start: 2021, end: null },
+      { role: "Diş Hekimi", place: "Kökyapı Diş Kliniği, Fatih", start: 2021, end: null },
       { role: "Diş Hekimi", place: "Şanlıurfa İl Sağlık Müdürlüğüne bağlı ağız ve diş sağlığı merkezi", start: 2018, end: 2020 },
     ],
     certificates: [{ name: "Temel yaşam desteği sertifikası", issuer: "Sağlık Bakanlığı onaylı eğitim merkezi", year: 2022 }],
-    memberships: ["Türk Dişhekimleri Birliği", "Ankara Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "İstanbul Dişhekimleri Odası"],
     publications: [],
     focus: ["muayene", "acil", "dolgu", "dis-tasi"],
     workingDays: weekdays,
@@ -181,14 +181,14 @@ export const kokyapiDoctors = [
     ],
     thesis: "Temporomandibular eklem rahatsızlığı olan hastalarda stabilizasyon splintinin ağrı ve ağız açıklığına etkisi",
     experience: [
-      { role: "Protetik Diş Tedavisi Uzmanı", place: "Kökyapı Diş Kliniği, Çankaya", start: 2016, end: null },
-      { role: "Protetik Diş Tedavisi Uzmanı", place: "Özel diş polikliniği, Ankara", start: 2013, end: 2016 },
+      { role: "Protetik Diş Tedavisi Uzmanı", place: "Kökyapı Diş Kliniği, Fatih", start: 2016, end: null },
+      { role: "Protetik Diş Tedavisi Uzmanı", place: "Özel diş polikliniği, Bakırköy", start: 2013, end: 2016 },
       { role: "Diş Hekimi", place: "Erzurum'da özel muayenehane", start: 2005, end: 2010 },
     ],
     certificates: [
       { name: "Temporomandibular bozukluklar tanı ve tedavi kursu", issuer: "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", year: 2014 },
     ],
-    memberships: ["Türk Dişhekimleri Birliği", "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", "Ankara Dişhekimleri Odası"],
+    memberships: ["Türk Dişhekimleri Birliği", "Türk Protetik Diş Tedavisi ve İmplantoloji Derneği", "İstanbul Dişhekimleri Odası"],
     publications: [
       "Stabilizasyon splintleri ve TME ağrısı — uzmanlık tezi, 2013",
       "Zirkonyum köprülerde konektör tasarımı — ulusal kongre posteri, 2017",

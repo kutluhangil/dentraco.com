@@ -11,7 +11,7 @@ import { hasBlockingFlags, moderate } from "@/lib/moderation";
 import type { Article, Doctor, Hospital, Review, ReviewStatus, TargetType, TreatmentId, User } from "@/lib/types";
 
 export const STORE_KEY = "dentraco-v1";
-const STORE_VERSION = 1;
+const STORE_VERSION = 2;
 
 export type ActionResult = { ok: true; id?: string } | { ok: false; error: string };
 
@@ -85,6 +85,12 @@ async function hashPassword(password: string) {
 
 function uid(prefix: string) {
   return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
+}
+
+/** Seed kayıtlarını yeni sürümle değiştirir; yöneticinin eklediği kayıtlar korunur. */
+function refreshSeed<T extends { id: string }>(stored: T[] | undefined, seedList: T[]) {
+  const ids = new Set(seedList.map((x) => x.id));
+  return [...(stored ?? []).filter((x) => !ids.has(x.id)), ...seedList];
 }
 
 function upsert<T extends { id: string }>(list: T[], item: T) {
@@ -291,6 +297,15 @@ export const useStore = create<Store>()(
       version: STORE_VERSION,
       storage: createJSONStorage(() => localStorage),
       skipHydration: true,
+      // v2: hastaneler İstanbul/Fatih'e taşındı; eski tarayıcılardaki seed hastane ve hekim kayıtları yenilenir.
+      migrate: (persisted, version) => {
+        const data = persisted as Partial<Data>;
+        if (version < 2) {
+          data.hospitals = refreshSeed(data.hospitals, seedHospitals);
+          data.doctors = refreshSeed(data.doctors, seedDoctors);
+        }
+        return data as Store;
+      },
       partialize: ({ hydrated: _h, ...rest }) => {
         void _h;
         const data: Partial<Store> = {};

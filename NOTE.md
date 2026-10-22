@@ -46,9 +46,9 @@ Yeni üye kaydı da açıktır.
 | Sayfa | Adres | İçerik |
 |---|---|---|
 | Ana sayfa | `/` | Etkileşimli diş haritası, arama, rakamlar, kayan tedavi bandı, öne çıkan hekimler, merkezler, rehber, yorum yayın süreci |
-| Doktorlar | `/doktorlar` | 40 hekim; isim, uzmanlık, şehir, hastane ve en düşük puana göre filtre |
+| Doktorlar | `/doktorlar` | 40 hekim; isim, uzmanlık, hastane ve en düşük puana göre filtre |
 | Doktor profili | `/doktorlar/[ad-soyad]` | Özgeçmiş: eğitim, tez, deneyim, sertifikalar, yayınlar, üyelikler, diller, çalışma günleri, yorumlar. Yazdırılabilir. |
-| Hastaneler | `/hastaneler` | 8 merkez; şehir, tedavi ve puana göre filtre |
+| Hastaneler | `/hastaneler` | 8 merkez (hepsi İstanbul Fatih'te); semt, tedavi ve puana göre filtre |
 | Hastane profili | `/hastaneler/[ad]` | Adres, iletişim, harita, çalışma saatleri, tedaviler, hekim kadrosu, yorumlar |
 | Sağlık rehberi | `/saglik-rehberi` | 8 kaynakçalı yazı: diş çürükleri, kanal tedavisi, diş taşı, diş eti hastalıkları, implant, ortodonti, ağız hijyeni, koruyucu diş hekimliği |
 | Giriş / Üye ol | `/giris`, `/kayit` | Demo hesaplar giriş sayfasında |
