@@ -35,6 +35,25 @@ const architecture: Record<string, string> = {
     "a restored eighteenth-century stone han building near the Grand Bazaar in Mercan, Fatih, Istanbul, arched windows with dark green frames and a heavy wooden entrance door, worn cobblestones, a mosque dome softly out of focus in the background, overcast soft light",
 };
 
+// Tedavi odaları birbirinin kopyası gibi durmasın diye: oda boyutu, malzeme, manzara, kamera açısı ve uzmanlığı gösteren tek bir cihaz değişir.
+// Haritada olmayan hastane (ör. Mine) genel tarifle üretilir.
+const interiors: Record<string, string> = {
+  dentaris:
+    "Spacious, clinical, hospital-grade room seen frontally and symmetrically from the doorway. A dental chair with deep petrol (#0F2A33) upholstery in the center, a ceiling-mounted operating light and a ceiling-mounted monitor with a blank dark screen, light grey terrazzo floor, matte porcelain white cabinetry along one wall, a frosted glass partition with a sliding door on the left. Behind the chair a wide window shows the domes and stone rooftops of the historic peninsula under late-morning light",
+  kokyapi:
+    "Intimate, focused room on the fourth floor of a renovated 1970s apartment building, photographed from a corner at a slightly lower angle. A dental chair with deep petrol (#0F2A33) upholstery, and beside it a white dental operating microscope on a ceiling-mounted arm as the clear focal point. Warm light oak floor, walls in cool porcelain grey-green, a narrow run of matte white cabinetry. A medium window with a sheer curtain shows green linden tree branches and the facade of the apartment building across the street; no sea view",
+  korfez:
+    "Friendly, homely room inside a restored nineteenth-century row house, photographed from the side. One wall is exposed old brick painted soft white, the floor is pale whitewashed wooden boards, cabinetry in matte porcelain white. A dental chair with deep petrol (#0F2A33) upholstery, a small low stool for a child next to it and a simple wooden shelf with a few plain wooden toys. A small bay window with open wooden shutters gives a narrow glimpse of the Golden Horn water. Soft, gentle daylight; no cartoon decorations",
+  kavis:
+    "Contemporary, technical room inside an office plaza near the city walls, photographed from behind the dental chair at a three-quarter angle. Polished light grey concrete floor, a floor-to-ceiling glass corner window, matte porcelain white cabinetry. A dental chair with deep petrol (#0F2A33) upholstery and next to it a slim cart with an intraoral scanner and a monitor with a blank screen. Through an internal glass wall, a small dental lab with a milling machine is softly out of focus. Outside the window: city rooftops and a fragment of old stone walls, no sea. Cool, even daylight",
+  lara:
+    "Generous, airy room in a seafront hospital, photographed wide from the far corner. A long horizontal ribbon window shows the Sea of Marmara and a distant ship on the horizon in clear coastal light. Light wooden slat ceiling, pale stone-look floor, matte porcelain white cabinetry. A dental chair with deep petrol (#0F2A33) upholstery, a patient vital-signs monitor on a stand with a blank screen for sedation, and a soft upholstered armchair for a companion in the corner",
+  porsuk:
+    "Medium-sized room on the first floor of a modern building on a busy avenue, photographed straight on from the side wall. One accent wall of light cream brick, light grey vinyl floor, matte porcelain white cabinetry. A dental chair with deep petrol (#0F2A33) upholstery and on a wall shelf a neat row of white plaster orthodontic study models. A tall window with a sheer curtain looks down onto plane tree leaves and a softly blurred modern tram on the street below; no sea. Warm soft afternoon light",
+  sedef:
+    "Small boutique room inside a restored eighteenth-century stone han near the Grand Bazaar. A low brick barrel-vaulted ceiling and thick whitewashed stone walls contrast with modern equipment. Photographed from a low angle toward a single deep arched window with a dark green frame and a deep stone reveal, overcast soft light falling in. Dark wooden floor, a short run of matte porcelain white cabinetry, a dental chair with deep petrol (#0F2A33) upholstery in the center and a compact overhead operating light. No sea or skyline view, only a stone courtyard wall outside",
+};
+
 const covers: Record<string, string> = {
   "dis-curukleri":
     "a single realistic ivory molar model standing on a porcelain-colored surface next to three sugar cubes, one sugar cube slightly crumbled, soft side light, minimal still life",
@@ -178,11 +197,13 @@ for (const h of hospitals) {
   push(`- **Alt metin:** ${h.name} tedavi odası (temsili)`);
   push();
   push("```text");
+  const room =
+    interiors[h.id] ??
+    "A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight";
   push(
     `Interior photograph of an empty, spotless modern dental treatment room in a ${h.type === "Diş Hastanesi" ? "hospital" : "boutique clinic"} in ${h.neighborhood}, Istanbul. ` +
-      `A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, ` +
-      `walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight${h.id === "lara" ? " and a hint of Marmara sea view" : h.id === "korfez" ? " and a hint of Golden Horn view" : ""}. ` +
-      `One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. ` +
+      `${room}. ` +
+      `One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no readable text, no logos. ` +
       `Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.`,
   );
   push("```");

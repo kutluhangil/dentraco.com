@@ -582,7 +582,7 @@ Architectural exterior photograph of a fictional dental clinic: a restored eight
 - **Alt metin:** Mine Ağız ve Diş Sağlığı Merkezi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Samatya, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Samatya, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no readable text, no logos. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Dentaris Boğaziçi Diş Hastanesi — tedavi odası
@@ -592,7 +592,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Dentaris Boğaziçi Diş Hastanesi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a hospital in Sirkeci, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a hospital in Sirkeci, Istanbul. Spacious, clinical, hospital-grade room seen frontally and symmetrically from the doorway. A dental chair with deep petrol (#0F2A33) upholstery in the center, a ceiling-mounted operating light and a ceiling-mounted monitor with a blank dark screen, light grey terrazzo floor, matte porcelain white cabinetry along one wall, a frosted glass partition with a sliding door on the left. Behind the chair a wide window shows the domes and stone rooftops of the historic peninsula under late-morning light. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no readable text, no logos. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Kökyapı Diş Kliniği — tedavi odası
@@ -602,7 +602,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a hosp
 - **Alt metin:** Kökyapı Diş Kliniği tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Çapa, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Çapa, Istanbul. Intimate, focused room on the fourth floor of a renovated 1970s apartment building, photographed from a corner at a slightly lower angle. A dental chair with deep petrol (#0F2A33) upholstery, and beside it a white dental operating microscope on a ceiling-mounted arm as the clear focal point. Warm light oak floor, walls in cool porcelain grey-green, a narrow run of matte white cabinetry. A medium window with a sheer curtain shows green linden tree branches and the facade of the apartment building across the street; no sea view. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no readable text, no logos. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Körfez Gülüş Ağız ve Diş Sağlığı Merkezi — tedavi odası
@@ -612,7 +612,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Körfez Gülüş Ağız ve Diş Sağlığı Merkezi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Balat, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight and a hint of Golden Horn view. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Balat, Istanbul. Friendly, homely room inside a restored nineteenth-century row house, photographed from the side. One wall is exposed old brick painted soft white, the floor is pale whitewashed wooden boards, cabinetry in matte porcelain white. A dental chair with deep petrol (#0F2A33) upholstery, a small low stool for a child next to it and a simple wooden shelf with a few plain wooden toys. A small bay window with open wooden shutters gives a narrow glimpse of the Golden Horn water. Soft, gentle daylight; no cartoon decorations. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no readable text, no logos. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Nilüfer Kavis Diş Polikliniği — tedavi odası
@@ -622,7 +622,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Nilüfer Kavis Diş Polikliniği tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Topkapı, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Topkapı, Istanbul. Contemporary, technical room inside an office plaza near the city walls, photographed from behind the dental chair at a three-quarter angle. Polished light grey concrete floor, a floor-to-ceiling glass corner window, matte porcelain white cabinetry. A dental chair with deep petrol (#0F2A33) upholstery and next to it a slim cart with an intraoral scanner and a monitor with a blank screen. Through an internal glass wall, a small dental lab with a milling machine is softly out of focus. Outside the window: city rooftops and a fragment of old stone walls, no sea. Cool, even daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no readable text, no logos. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Lara Mavi Kıyı Diş Hastanesi — tedavi odası
@@ -632,7 +632,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Lara Mavi Kıyı Diş Hastanesi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a hospital in Yenikapı, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight and a hint of Marmara sea view. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a hospital in Yenikapı, Istanbul. Generous, airy room in a seafront hospital, photographed wide from the far corner. A long horizontal ribbon window shows the Sea of Marmara and a distant ship on the horizon in clear coastal light. Light wooden slat ceiling, pale stone-look floor, matte porcelain white cabinetry. A dental chair with deep petrol (#0F2A33) upholstery, a patient vital-signs monitor on a stand with a blank screen for sedation, and a soft upholstered armchair for a companion in the corner. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no readable text, no logos. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Porsuk Ortodonti ve İmplant Merkezi — tedavi odası
@@ -642,7 +642,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a hosp
 - **Alt metin:** Porsuk Ortodonti ve İmplant Merkezi tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Laleli, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Laleli, Istanbul. Medium-sized room on the first floor of a modern building on a busy avenue, photographed straight on from the side wall. One accent wall of light cream brick, light grey vinyl floor, matte porcelain white cabinetry. A dental chair with deep petrol (#0F2A33) upholstery and on a wall shelf a neat row of white plaster orthodontic study models. A tall window with a sheer curtain looks down onto plane tree leaves and a softly blurred modern tram on the street below; no sea. Warm soft afternoon light. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no readable text, no logos. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ### Sedef Diş Kliniği — tedavi odası
@@ -652,7 +652,7 @@ Interior photograph of an empty, spotless modern dental treatment room in a bout
 - **Alt metin:** Sedef Diş Kliniği tedavi odası (temsili)
 
 ```text
-Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Mercan, Istanbul. A dental chair with deep petrol (#0F2A33) upholstery in the center, an overhead operating light, a compact instrument tray, cabinetry in matte porcelain white, walls in cool porcelain grey-green, large window with sheer curtain letting in soft daylight. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no screens with text. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
+Interior photograph of an empty, spotless modern dental treatment room in a boutique clinic in Mercan, Istanbul. Small boutique room inside a restored eighteenth-century stone han near the Grand Bazaar. A low brick barrel-vaulted ceiling and thick whitewashed stone walls contrast with modern equipment. Photographed from a low angle toward a single deep arched window with a dark green frame and a deep stone reveal, overcast soft light falling in. Dark wooden floor, a short run of matte porcelain white cabinetry, a dental chair with deep petrol (#0F2A33) upholstery in the center and a compact overhead operating light. No sea or skyline view, only a stone courtyard wall outside. One small electric blue (#2D4BFF) object, such as a curing light handpiece resting on the tray. No people, no readable text, no logos. Wide-angle 24mm, straight verticals, calm and hygienic atmosphere. Horizontal 4:3 aspect ratio.
 ```
 
 ## 4. Sağlık rehberi kapakları
