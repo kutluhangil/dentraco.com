@@ -13,6 +13,7 @@ import { specialtyById } from "@/data/specialties";
 import { doctorName, formatDate } from "@/lib/format";
 import { useArticle, useArticles, useDoctors, useHydrated, useSession } from "@/lib/repo";
 import { slugify } from "@/lib/slug";
+import { safeHttpUrl } from "@/lib/url";
 
 export function ArticleView({ slug }: { slug: string }) {
   const article = useArticle(slug);
@@ -82,13 +83,20 @@ export function ArticleView({ slug }: { slug: string }) {
               Kaynaklar
             </h2>
             <ol className="mt-3 list-decimal space-y-1.5 pl-5 text-sm text-ink-soft">
-              {article.sources.map((s) => (
-                <li key={s.url}>
-                  <a href={s.url} target="_blank" rel="noopener noreferrer" className="hover:text-curing-deep hover:underline">
-                    {s.label}
-                  </a>
-                </li>
-              ))}
+              {article.sources.map((s) => {
+                const href = safeHttpUrl(s.url);
+                return (
+                  <li key={`${s.label}-${s.url}`}>
+                    {href ? (
+                      <a href={href} target="_blank" rel="noopener noreferrer" className="hover:text-curing-deep hover:underline">
+                        {s.label}
+                      </a>
+                    ) : (
+                      s.label
+                    )}
+                  </li>
+                );
+              })}
             </ol>
           </section>
         </div>

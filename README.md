@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="docs/readme/headline.svg" alt="Doğru diş hekimini dişinden, şikâyetinden, şehrinden ya da tedavisinden başlayarak bulun." width="80%">
+<img src="docs/readme/headline.svg" alt="Doğru diş hekimini dişinden, şikâyetinden, semtinden ya da tedavisinden başlayarak bulun." width="80%">
 
 <br><br>
 
@@ -19,7 +19,7 @@
 <img src="https://img.shields.io/badge/TypeScript-5-0F2A33?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
 <img src="https://img.shields.io/badge/Tailwind_CSS-4-0F2A33?style=flat-square&logo=tailwindcss&logoColor=8EDCC6" alt="Tailwind CSS 4">
 <img src="https://img.shields.io/badge/Motion-animasyon-0F2A33?style=flat-square&logo=framer&logoColor=white" alt="Motion">
-<img src="https://img.shields.io/badge/Vitest-19_test-0F2A33?style=flat-square&logo=vitest&logoColor=8EDCC6" alt="Vitest">
+<img src="https://img.shields.io/badge/Vitest-23_test-0F2A33?style=flat-square&logo=vitest&logoColor=8EDCC6" alt="Vitest">
 <img src="https://img.shields.io/badge/Responsive-320–1920px-0F2A33?style=flat-square" alt="Responsive">
 
 <br><br>
@@ -209,7 +209,7 @@ supabase/schema.sql    ileriki aşama için şema ve güvenlik kuralları
 <details>
 <summary><b>Görseller (Gemini)</b></summary>
 
-64 görselin tamamı için prompt, oran, çözünürlük ve dosya adı [`docs/GORSEL_PROMPTLARI.md`](docs/GORSEL_PROMPTLARI.md) dosyasındadır: 40 doktor portresi, 8 hastane dış cephesi, 8 tedavi odası ve 8 makale kapağı. Görseller eklenene kadar site otomatik yer tutucu gösterir; dosyalar `public/images/` altına konunca kod değişikliği gerekmez.
+64 görselin tamamı için prompt, oran, çözünürlük ve dosya adı [`docs/GORSEL_PROMPTLARI.md`](docs/GORSEL_PROMPTLARI.md) dosyasındadır: 40 doktor portresi, 8 hastane dış cephesi, 8 tedavi odası ve 8 makale kapağı. 64 görselin tamamı üretildi ve `public/images/` altında. Bir dosya silinir ya da admin panelinden yeni kayıt eklenirse site o görsel için otomatik yer tutucu gösterir.
 
 </details>
 

@@ -8,6 +8,7 @@ import { KeyRound } from "lucide-react";
 import { toast } from "@/components/ui/toast";
 import { demoCredentials } from "@/data/users";
 import { repo, useStore } from "@/lib/repo";
+import { safeNext } from "@/lib/url";
 
 const loginSchema = z.object({
   email: z.string().trim().email("Geçerli bir e-posta adresi girin."),
@@ -29,10 +30,6 @@ const registerSchema = z
   .refine((v) => v.password === v.password2, { path: ["password2"], message: "Şifreler eşleşmiyor." });
 
 type Errors = Record<string, string>;
-
-function safeNext(next: string | null) {
-  return next && next.startsWith("/") && !next.startsWith("//") ? next : null;
-}
 
 export function LoginForm() {
   const router = useRouter();

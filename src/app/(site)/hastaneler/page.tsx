@@ -5,7 +5,7 @@ import { ListSkeleton, PageIntro } from "@/components/ui/page-intro";
 
 export const metadata: Metadata = {
   title: "Hastaneler ve klinikler",
-  description: "Ağız ve diş sağlığı merkezlerini şehre, sunulan tedaviye ve onaylı yorum puanına göre karşılaştırın.",
+  description: "Ağız ve diş sağlığı merkezlerini semte, sunulan tedaviye ve onaylı yorum puanına göre karşılaştırın.",
 };
 
 export default function HospitalsPage() {

@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { RegisterForm } from "@/components/auth/auth-form";
 import { AuthShell } from "@/components/auth/auth-shell";
 
-export const metadata: Metadata = { title: "Üye ol" };
+export const metadata: Metadata = { title: "Üye ol", robots: { index: false } };
 
 export default function RegisterPage() {
   return (

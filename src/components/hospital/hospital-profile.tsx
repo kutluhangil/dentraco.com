@@ -189,7 +189,7 @@ function Profile({ hospital }: { hospital: Hospital }) {
               className="h-56 w-full border-0 grayscale-[35%]"
               loading="lazy"
             />
-            <p className="px-4 py-2.5 text-xs text-ink-faint">Konum ilçe merkezini gösterir. Harita verisi © OpenStreetMap katkıcıları.</p>
+            <p className="px-4 py-2.5 text-xs text-ink-faint">Konum semt merkezini yaklaşık gösterir. Harita verisi © OpenStreetMap katkıcıları.</p>
           </div>
         </aside>
       </div>

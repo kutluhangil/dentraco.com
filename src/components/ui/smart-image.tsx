@@ -42,7 +42,7 @@ export function SmartImage({
           alt={alt}
           fill
           sizes={sizes}
-          priority={priority}
+          preload={priority}
           onLoad={() => setState("loaded")}
           onError={() => setState("failed")}
           className={`object-cover transition-opacity duration-500 ${state === "loaded" ? "opacity-100" : "opacity-0"}`}

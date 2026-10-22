@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { LoginForm } from "@/components/auth/auth-form";
 import { AuthShell } from "@/components/auth/auth-shell";
 
-export const metadata: Metadata = { title: "Giriş yap" };
+export const metadata: Metadata = { title: "Giriş yap", robots: { index: false } };
 
 export default function LoginPage() {
   return (

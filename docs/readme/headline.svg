@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="80" viewBox="0 0 1000 80" role="img" aria-label="Doğru diş hekimini dişinden, şikâyetinden, şehrinden ya da tedavisinden başlayarak bulun.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="80" viewBox="0 0 1000 80" role="img" aria-label="Doğru diş hekimini dişinden, şikâyetinden, semtinden ya da tedavisinden başlayarak bulun.">
 <style>
 text{font:700 40px Figtree, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif;letter-spacing:-1.2px;fill:#0F2A33}
 .word{opacity:0}.hl{fill:#2D4BFF}
@@ -7,5 +7,5 @@ text{font:700 40px Figtree, 'Segoe UI', -apple-system, Helvetica, Arial, sans-se
 @media (prefers-reduced-motion:reduce){.word{animation:none!important}.w0{opacity:1}}
 </style>
 <text x="368" y="52" text-anchor="end">Doğru diş hekimini</text>
-<g transform="translate(380 52)"><text class="word w0" x="0" y="0"><tspan class="hl">dişinden</tspan> başlayarak bulun.</text><text class="word w1" x="0" y="0"><tspan class="hl">şikâyetinden</tspan> başlayarak bulun.</text><text class="word w2" x="0" y="0"><tspan class="hl">şehrinden</tspan> başlayarak bulun.</text><text class="word w3" x="0" y="0"><tspan class="hl">tedavisinden</tspan> başlayarak bulun.</text></g>
+<g transform="translate(380 52)"><text class="word w0" x="0" y="0"><tspan class="hl">dişinden</tspan> başlayarak bulun.</text><text class="word w1" x="0" y="0"><tspan class="hl">şikâyetinden</tspan> başlayarak bulun.</text><text class="word w2" x="0" y="0"><tspan class="hl">semtinden</tspan> başlayarak bulun.</text><text class="word w3" x="0" y="0"><tspan class="hl">tedavisinden</tspan> başlayarak bulun.</text></g>
 </svg>

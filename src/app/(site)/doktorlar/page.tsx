@@ -12,7 +12,7 @@ export default function DoctorsPage() {
   return (
     <>
       <PageIntro title="Diş hekimleri">
-        Uzmanlık alanına, şehre ve onaylı yorum puanına göre filtreleyin. Her profilde hekimin eğitimi, deneyimi ve çalıştığı merkez yer alır.
+        Uzmanlık alanına, çalıştığı merkeze ve onaylı yorum puanına göre filtreleyin. Her profilde hekimin eğitimi, deneyimi ve çalıştığı merkez yer alır.
       </PageIntro>
       <div className="page pb-24">
         <Suspense fallback={<ListSkeleton />}>

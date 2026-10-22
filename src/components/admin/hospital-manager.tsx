@@ -49,7 +49,7 @@ function HospitalTable({ onEdit }: { onEdit: (id: string) => void }) {
       <TableToolbar
         q={q}
         setQ={setQ}
-        placeholder="Hastane ya da şehir ara"
+        placeholder="Hastane ya da semt ara"
         action={
           <button type="button" onClick={() => onEdit("yeni")} className={btn.primary}>
             <Plus className="size-4" /> Hastane ekle

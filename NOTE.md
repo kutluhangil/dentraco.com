@@ -98,7 +98,7 @@ Her sayfadan **Ctrl+K** (Mac'te **⌘K**) ile arama penceresi açılır.
 - **Ana sayfa animasyonları:**
   - Sayfanın üstünde kaydırma ilerleme çizgisi
   - Hero arka planında yavaş süzülen renk lekeleri, nokta ızgarası ve imleci izleyen mavi ışık
-  - Başlığın kelime kelime açılması; "dişinden / şikâyetinden / şehrinden / tedavisinden" diye dönen kelime
+  - Başlığın kelime kelime açılması; "dişinden / şikâyetinden / semtinden / tedavisinden" diye dönen kelime
   - Diş haritasında dişlerin sırayla belirmesi ve arkın üzerinden geçen mavi ışık taraması
   - Görünüme girince 0'dan sayan rakamlar
   - Ters yönlerde akan tedavi ve uzmanlık bantları (üzerine gelince durur)
@@ -157,14 +157,18 @@ Prototip sunucu ya da veritabanı kullanmaz. İçerik kodla birlikte gelir; kay�
   | Makale kapakları | 8 | 16:9 | `public/images/rehber/` |
 
 - Gemini çıktısını PNG indirin, WebP'ye çevirin (`cwebp -q 82 ...`) ve **tablodaki dosya adıyla birebir** kaydedin.
-- Görseller eklenene kadar site otomatik yer tutucu (baş harfler, diş silüeti, ark deseni) gösterir. Dosya eklenince kod değişikliği gerekmez.
+- 64 görselin tamamı üretildi ve eklendi. Bir görsel eksik olursa (ör. admin panelinden yeni hekim eklenince) site otomatik yer tutucu (baş harfler, diş silüeti, ark deseni) gösterir; dosya eklenince kod değişikliği gerekmez.
 - Paylaşım görseli (OG) ve site ikonu kodla üretilir, Gemini gerekmez.
 - Admin panelinden doktor ekleyip prompt dosyasını güncellemek isterseniz `pnpm prompts` komutunu çalıştırın. Betik yalnızca koddaki seed veriyi okur; tarayıcıda eklenen kayıtları görmez.
 
 ## 9. Neler test edildi?
 
-- Lint ve tip kontrolü hatasız; 19 birim testi geçiyor (moderasyon, puan hesabı, Türkçe arama, seed verinin tutarlılığı).
-- Production build 78 sayfayı hatasız üretiyor.
+- Lint ve tip kontrolü hatasız; 23 birim testi geçiyor (moderasyon, puan hesabı, Türkçe arama, seed verinin tutarlılığı, güvenli yönlendirme ve link kontrolü).
+- Production build 80 sayfayı hatasız üretiyor (`sitemap.xml` ve `robots.txt` dahil).
+- `pnpm audit`: bilinen güvenlik açığı yok.
+- Güvenlik başlıkları: Content-Security-Policy, X-Frame-Options, HSTS, Referrer-Policy ve Permissions-Policy her sayfada gönderiliyor. Tarayıcı testinde CSP hiçbir şeyi engellemedi; OpenStreetMap haritası çalışıyor.
+- Giriş sayfasındaki `?next=` adresi yalnızca site içi yolları kabul ediyor; `//site.com` ya da `/\site.com` gibi dışarı yönlendirme denemeleri yok sayılıyor.
+- Admin'in girdiği kaynak linkleri yalnızca `http(s)` ise link oluyor; `javascript:` gibi adresler düz metin kalıyor.
 - Responsive kontrolü: 320, 360, 390, 414, 768, 1024, 1280, 1440 ve 1920 px genişliklerde tüm sayfalarda yatay taşma yok.
 - Tarayıcıda uçtan uca akış:
   1. Kayıt

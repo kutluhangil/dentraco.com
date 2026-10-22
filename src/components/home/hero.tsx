@@ -40,7 +40,7 @@ export function Hero() {
           </motion.p>
           <h1 className="display-tight mt-5 text-[clamp(2.5rem,4.6vw,3.75rem)] leading-[1.04]">
             <SplitWords text="Doğru diş hekimini" delay={0.1} />
-            <RotatingWord words={["dişinden", "şikâyetinden", "şehrinden", "tedavisinden"]} />{" "}
+            <RotatingWord words={["dişinden", "şikâyetinden", "semtinden", "tedavisinden"]} />{" "}
             <SplitWords text="başlayarak bulun." delay={0.35} />
           </h1>
           <motion.p
