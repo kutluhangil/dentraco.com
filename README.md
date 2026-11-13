@@ -39,7 +39,7 @@ People rarely know which kind of dentist they need. They know *where* it hurts. 
 | **Profiles** | Background, specialties, certificates and courses, clinic, ratings and reviews for every dentist. |
 | **Reviews** | Ratings with a moderation step that screens for insults before a review is shown. |
 | **Health guide** | Short, referenced articles written for patients, rendered from Markdown. |
-| **Accounts** | Sign up, sign in, a profile with favourites and appointment requests. |
+| **Accounts** | Sign up, sign in, a profile, and appointment requests from a dentist profile. |
 | **Admin panel** | Clinics, dentists, articles, reviews, users and settings. |
 | **About the project** | Scope, technical setup, review principles and a domain / hosting cost analysis. |
 | **Production touches** | Security headers with a CSP in production, sitemap, OG images and 64 generated visuals. |
